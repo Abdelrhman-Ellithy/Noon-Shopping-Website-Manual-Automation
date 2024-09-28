@@ -1,808 +1,254 @@
-2024-09-11 21:30:50 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\TestNGRunner.xml"
-2024-09-11 21:30:50 INFO  java:53):21 - [94m--------------------------------------------------------[37m
-2024-09-11 21:30:50 INFO  java:54):21 - [96m------- Ellithium  Engine Setup  -------------[37m
-2024-09-11 21:30:50 INFO  java:55):21 - [94m--------------------------------------------------------[37m
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ADDING NODE DetailsTests.invalidParamter()[pri:0, instance:API.DetailsTests@6ea1bcdc] 970457221
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ADDING NODE DetailsTests.invalidID()[pri:0, instance:API.DetailsTests@6ea1bcdc] 1968579324
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ADDING NODE DetailsTests.validID()[pri:0, instance:API.DetailsTests@6ea1bcdc] -1509094759
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ADDING NODE PopularTests.moviesSortedByRating()[pri:0, instance:API.PopularTests@782a4fff] 787397176
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ADDING NODE SearchTest.sqlInjection()[pri:0, instance:API.SearchTest@46c670a6] -1979197184
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ADDING NODE SearchTest.searchWithWrongSpelling()[pri:0, instance:API.SearchTest@46c670a6] -1176840496
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ADDING NODE SearchTest.onlyRelativeNameReturned()[pri:0, instance:API.SearchTest@46c670a6] -541225717
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ADDING NODE SearchTest.searchWithEmptyQuery()[pri:0, instance:API.SearchTest@46c670a6] 1630419712
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ADDING NODE SearchTest.acceptsArabicWords()[pri:0, instance:API.SearchTest@46c670a6] 1780747979
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ================ SORTING
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ADDING NODE SETUP.setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:null] -1218125343
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ================ SORTING
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ADDING NODE SETUP.tearDown()[pri:0, instance:null] 757730714
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ================ SORTING
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ================ SORTING
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ================ SORTING
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ADDING NODE SETUP.setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UI.TestRunner.Runner@585811a4] -1919980573
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ================ SORTING
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:UI.TestRunner.Runner@585811a4] 331807349
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ================ SORTING
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ADDING NODE SETUP.tearDown()[pri:0, instance:UI.TestRunner.Runner@585811a4] -797984950
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ================ SORTING
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2024-09-11 21:30:50 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2024-09-11 21:30:50 INFO  java:42):21 - [96m[START] API  [TESTS STARTED][37m
-2024-09-11 21:30:50 INFO  java:15):21 - [94m[START] Test acceptsArabicWords [STARTED][37m
-2024-09-11 21:30:50 INFO  java:15):21 - [94m[START] Test invalidParamter [STARTED][37m
-2024-09-11 21:30:50 INFO  java:15):21 - [94m[START] Test moviesSortedByRating [STARTED][37m
-2024-09-11 21:30:50 INFO  java:15):21 - [94m[START] Test invalidID [STARTED][37m
-2024-09-11 21:30:50 INFO  java:15):21 - [94m[START] Test validID [STARTED][37m
-2024-09-11 21:30:53 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://movieland.runasp.net:80
-2024-09-11 21:30:53 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://movieland.runasp.net:80
-2024-09-11 21:30:53 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://movieland.runasp.net:80
-2024-09-11 21:30:53 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://movieland.runasp.net:80
-2024-09-11 21:30:53 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://movieland.runasp.net:80
-2024-09-11 21:30:53 DEBUG DefaultClientConnectionOperator:177 - Connecting to movieland.runasp.net:80
-2024-09-11 21:30:53 DEBUG DefaultClientConnectionOperator:177 - Connecting to movieland.runasp.net:80
-2024-09-11 21:30:53 DEBUG DefaultClientConnectionOperator:177 - Connecting to movieland.runasp.net:80
-2024-09-11 21:30:53 DEBUG DefaultClientConnectionOperator:177 - Connecting to movieland.runasp.net:80
-2024-09-11 21:30:53 DEBUG DefaultClientConnectionOperator:177 - Connecting to movieland.runasp.net:80
-2024-09-11 21:30:53 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
-2024-09-11 21:30:53 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
-2024-09-11 21:30:53 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
-2024-09-11 21:30:53 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
-2024-09-11 21:30:53 DEBUG RequestAuthCache:77 - Auth cache not set in the context
-2024-09-11 21:30:53 DEBUG RequestAuthCache:77 - Auth cache not set in the context
-2024-09-11 21:30:53 DEBUG RequestAuthCache:77 - Auth cache not set in the context
-2024-09-11 21:30:53 DEBUG RequestAuthCache:77 - Auth cache not set in the context
-2024-09-11 21:30:53 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
-2024-09-11 21:30:53 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
-2024-09-11 21:30:53 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
-2024-09-11 21:30:53 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
-2024-09-11 21:30:53 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
-2024-09-11 21:30:53 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
-2024-09-11 21:30:53 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
-2024-09-11 21:30:53 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
-2024-09-11 21:30:53 DEBUG DefaultHttpClient:677 - Attempt 1 to execute request
-2024-09-11 21:30:53 DEBUG DefaultHttpClient:677 - Attempt 1 to execute request
-2024-09-11 21:30:53 DEBUG DefaultHttpClient:677 - Attempt 1 to execute request
-2024-09-11 21:30:53 DEBUG DefaultHttpClient:677 - Attempt 1 to execute request
-2024-09-11 21:30:53 DEBUG DefaultClientConnection:274 - Sending request: GET /api/Movies/search?query=%D8%B1%D8%B4%D8%AF%D9%8A HTTP/1.1
-2024-09-11 21:30:53 DEBUG DefaultClientConnection:274 - Sending request: GET /api/Movies/Details/1022789 HTTP/1.1
-2024-09-11 21:30:53 DEBUG DefaultClientConnection:274 - Sending request: GET /api/Movies/Details/1022789?said=talaat HTTP/1.1
-2024-09-11 21:30:53 DEBUG DefaultClientConnection:274 - Sending request: GET /api/Movies/popular HTTP/1.1
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "GET /api/Movies/search?query=%D8%B1%D8%B4%D8%AF%D9%8A HTTP/1.1[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "GET /api/Movies/Details/1022789 HTTP/1.1[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "GET /api/Movies/popular HTTP/1.1[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "GET /api/Movies/Details/1022789?said=talaat HTTP/1.1[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Host: movieland.runasp.net[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Host: movieland.runasp.net[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Host: movieland.runasp.net[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Host: movieland.runasp.net[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21)[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21)[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21)[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21)[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "[\r][\n]"
-2024-09-11 21:30:53 DEBUG headers:278 - >> GET /api/Movies/popular HTTP/1.1
-2024-09-11 21:30:53 DEBUG headers:278 - >> GET /api/Movies/search?query=%D8%B1%D8%B4%D8%AF%D9%8A HTTP/1.1
-2024-09-11 21:30:53 DEBUG headers:278 - >> GET /api/Movies/Details/1022789?said=talaat HTTP/1.1
-2024-09-11 21:30:53 DEBUG headers:278 - >> GET /api/Movies/Details/1022789 HTTP/1.1
-2024-09-11 21:30:53 DEBUG headers:281 - >> Accept: */*
-2024-09-11 21:30:53 DEBUG headers:281 - >> Accept: */*
-2024-09-11 21:30:53 DEBUG headers:281 - >> Accept: */*
-2024-09-11 21:30:53 DEBUG headers:281 - >> Accept: */*
-2024-09-11 21:30:53 DEBUG headers:281 - >> Host: movieland.runasp.net
-2024-09-11 21:30:53 DEBUG headers:281 - >> Host: movieland.runasp.net
-2024-09-11 21:30:53 DEBUG headers:281 - >> Host: movieland.runasp.net
-2024-09-11 21:30:53 DEBUG headers:281 - >> Host: movieland.runasp.net
-2024-09-11 21:30:53 DEBUG headers:281 - >> Connection: Keep-Alive
-2024-09-11 21:30:53 DEBUG headers:281 - >> Connection: Keep-Alive
-2024-09-11 21:30:53 DEBUG headers:281 - >> Connection: Keep-Alive
-2024-09-11 21:30:53 DEBUG headers:281 - >> Connection: Keep-Alive
-2024-09-11 21:30:53 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21)
-2024-09-11 21:30:53 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21)
-2024-09-11 21:30:53 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21)
-2024-09-11 21:30:53 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21)
-2024-09-11 21:30:53 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
-2024-09-11 21:30:53 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
-2024-09-11 21:30:53 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
-2024-09-11 21:30:53 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
-2024-09-11 21:30:53 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "X-Powered-By: ASP.NET[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Date: Wed, 11 Sep 2024 18:30:54 GMT[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:53 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
-2024-09-11 21:30:53 DEBUG headers:262 - << HTTP/1.1 200 OK
-2024-09-11 21:30:53 DEBUG headers:265 - << Transfer-Encoding: chunked
-2024-09-11 21:30:53 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
-2024-09-11 21:30:53 DEBUG headers:265 - << Server: Microsoft-IIS/10.0
-2024-09-11 21:30:53 DEBUG headers:265 - << X-Powered-By: ASP.NET
-2024-09-11 21:30:53 DEBUG headers:265 - << Date: Wed, 11 Sep 2024 18:30:54 GMT
-2024-09-11 21:30:53 DEBUG DefaultHttpClient:504 - Connection can be kept alive indefinitely
-2024-09-11 21:30:53 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
-2024-09-11 21:30:53 DEBUG RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
-2024-09-11 21:30:53 DEBUG RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "X-Powered-By: ASP.NET[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Date: Wed, 11 Sep 2024 18:30:54 GMT[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:53 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
-2024-09-11 21:30:53 DEBUG headers:262 - << HTTP/1.1 200 OK
-2024-09-11 21:30:53 DEBUG headers:265 - << Transfer-Encoding: chunked
-2024-09-11 21:30:53 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
-2024-09-11 21:30:53 DEBUG headers:265 - << Server: Microsoft-IIS/10.0
-2024-09-11 21:30:53 DEBUG headers:265 - << X-Powered-By: ASP.NET
-2024-09-11 21:30:53 DEBUG headers:265 - << Date: Wed, 11 Sep 2024 18:30:54 GMT
-2024-09-11 21:30:53 DEBUG DefaultHttpClient:504 - Connection can be kept alive indefinitely
-2024-09-11 21:30:53 DEBUG RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8
-2024-09-11 21:30:53 DEBUG RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-2024-09-11 21:30:53 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "X-Powered-By: ASP.NET[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "X-Powered-By: ASP.NET[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Date: Wed, 11 Sep 2024 18:30:54 GMT[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Date: Wed, 11 Sep 2024 18:30:54 GMT[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:53 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
-2024-09-11 21:30:53 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
-2024-09-11 21:30:53 DEBUG headers:262 - << HTTP/1.1 200 OK
-2024-09-11 21:30:53 DEBUG headers:262 - << HTTP/1.1 200 OK
-2024-09-11 21:30:53 DEBUG headers:265 - << Transfer-Encoding: chunked
-2024-09-11 21:30:53 DEBUG headers:265 - << Transfer-Encoding: chunked
-2024-09-11 21:30:53 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
-2024-09-11 21:30:53 DEBUG headers:265 - << Server: Microsoft-IIS/10.0
-2024-09-11 21:30:53 DEBUG headers:265 - << X-Powered-By: ASP.NET
-2024-09-11 21:30:53 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
-2024-09-11 21:30:53 DEBUG headers:265 - << Date: Wed, 11 Sep 2024 18:30:54 GMT
-2024-09-11 21:30:53 DEBUG headers:265 - << Server: Microsoft-IIS/10.0
-2024-09-11 21:30:53 DEBUG DefaultHttpClient:504 - Connection can be kept alive indefinitely
-2024-09-11 21:30:53 DEBUG headers:265 - << X-Powered-By: ASP.NET
-2024-09-11 21:30:53 DEBUG headers:265 - << Date: Wed, 11 Sep 2024 18:30:54 GMT
-2024-09-11 21:30:53 DEBUG RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8
-2024-09-11 21:30:53 DEBUG DefaultHttpClient:504 - Connection can be kept alive indefinitely
-2024-09-11 21:30:53 DEBUG RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-2024-09-11 21:30:53 DEBUG RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8
-2024-09-11 21:30:53 DEBUG RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-2024-09-11 21:30:53 DEBUG wire:73 -  << "2eae[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:87 -  << "{"page":1,"results":[{"adult":false,"backdropPath":"/mKOBdgaEFguADkJhfFslY7TYxIh.jpg","genreIds":[28,878,35,12,53],"id":365177,"originalLanguage":"en","originalTitle":"Borderlands","overview":"Returning to her home planet, an infamous bounty hunter forms an unexpected alliance with a team of unlikely heroes. Together, they battle monsters and dangerous bandits to protect a young girl who holds the key to unimaginable power.","popularity":2741.991,"posterPath":"/865DntZzOdX6rLMd405R0nFkLmL.jpg","releaseDate":"2024-08-07","title":"Borderlands","video":false,"voteAverage":5.85,"voteCount":428},{"adult":false,"backdropPath":"/yDHYTfA3R0jFYba16jBB1ef8oIt.jpg","genreIds":[28,35,878],"id":533535,"originalLanguage":"en","originalTitle":"Deadpool & Wolverine","overview":"A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.","popularity":2617.082,"posterPath":"/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg","releaseDate":"2024-07-24","title":"Deadpool & Wolverine","video":false,"voteAverage":7.724,"voteCount":2778},{"adult":false,"backdropPath":"/18wozP6NjPSNBSgCga5bN7yUSzl.jpg","genreIds":[35,27,14],"id":917496,"originalLanguage":"en","originalTitle":"Beetlejuice Beetlejuice","overview":"After a family tragedy, three generations of the Deetz family return home to Winter River. Still haunted by Beetlejuice, Lydia's life is turned upside down when her teenage daughter, Astrid, accidentally opens the portal to the Afterlife. okil","popularity":1658.314,"posterPath":"/kKgQzkUCnQmeTPkyIwHly2t6ZFI.jpg","releaseDate":"2024-09-04","title":"Beetlejuice Beetlejuice","video":false,"voteAverage":7.2,"voteCount":252},{"adult":false,"backdropPath":"/stKGOm8UyhuLPR9sZLjs5AkmncA.jpg","genreIds":[16,10751,12,35],"id":1022789,"originalLanguage":"en","originalTitle":"Inside Out 2","overview":"Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who[0xe2][0x80][0x99]ve long been running a successful operation by all accounts, aren[0xe2][0x80][0x99]t sure how to feel when Anxiety shows up. And it looks like she[0xe2][0x80][0x99]s not alone.","popularity":1507.477,"posterPath":"/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg","releaseDate":"2024-06-11","title":"Inside Out 2","video":false,"voteAverage":7.682,"voteCount":3440},{"adult":false,"backdropPath":"/tCQfubckzzcuCbsGugkpLhfjS5z.jpg","genreIds":[28,53,80],"id":970347,"originalLanguage":"en","originalTitle":"The Killer","overview":"Zee is a feared contract killer known as \"the Queen of the Dead,\" but when she refuses to murder a young blind woman, she finds herself hunted both by criminal colleagues and a determined police detective.","popularity":1496.634,"posterPath":"/6PCnxKZZIVRanWb710pNpYVkCSw.jpg","releaseDate":"2024-08-22","title":"The Killer","video":false,"voteAverage":6.484,"voteCount":155},{"adult":false,"backdropPath":"/9juRmk8QjcsUcbrevVu5t8VZy5G.jpg","genreIds":[28,12,80,53],"id":923667,"originalLanguage":"cn","originalTitle":"[0xe4][0xb9][0x9d][0xe9][0xbe][0x8d][0xe5][0x9f][0x8e][0xe5][0xaf][0xa8][0xe4][0xb9][0x8b][0xe5][0x9c][0x8d][0xe5][0x9f][0x8e]","overview":"Set in the 1980s, troubled youth Chan Lok-kwun accidentally enters the Walled City, discovers the order amidst its chaos, and learns important life lessons along the way. In the Walled City, he becomes close friends with Shin, Twelfth Master and AV. Under the leadership of Cyclone, they resist against the invasion of villain Mr. Big in a series of fierce battles. Together, they vow to protect the safe haven that is Kowloon Walled City.","popularity":1196.776,"posterPath":"/PywbVPeIhBFc33QXktnhMaysmL.jpg","releaseDate":"2024-04-23","title":"Twilight of the Warriors: Walled In","video":false,"voteAverage":6.87,"voteCount":123},{"adult":false,"backdropPath":"/lgkPzcOSnTvjeMnuFzozRO5HHw1.jpg","genreIds":[16,10751,35,28],"id":519182,"originalLanguage":"en","originalTitle":"Despicable Me 4","overview":"Gru and Lucy and their girls[0xe2][0x80][0x94]Margo, Edith and Agnes[0xe2][0x80][0x94]welcome a new member to the Gru family, Gru Jr., who is intent on tormenting his dad. Gru also faces a new nemesis in Maxime Le Mal and his femme fatale girlfriend Valentina, forcing the family to go on the run.","popularity":1172.176,"posterPath":"/wWba3TaojhK7NdycRhoQpsG0FaH.jpg","releaseDate":"2024-06-20","title":"Despicable Me 4","video":false,"voteAverage":7.2,"voteCount":1513},{"adult":false,"backdropPath":"/rwakNepsh0dXVcTtWKUVbDsSYYZ.jpg","genreIds":[28,80,53,35],"id":573435,"originalLanguage":"en","originalTitle":"Bad Boys: Ride or Die","overview":"After their late former Captain is framed, Lowrey and Burnett try to clear his name, only to end up on the run themselves.","popularity":1059.196,"posterPath":"/oGythE98MYleE6mZlGs5oBGkux1.jpg","releaseDate":"2024-06-05","title":"Bad Boys: Ride or Die","video":false,"voteAverage":7.6,"voteCount":1865},{"adult":false,"backdropPath":"/su7GvFVUV5uWtAPGAVRkpDrA6Wl.jpg","genreIds":[14,35],"id":4011,"originalLanguage":"en","originalTitle":"Beetlejuice","overview":"A newly dead New England couple seeks help from a deranged demon exorcist to scare an affluent New York family out of their home.","popularity":1048.715,"posterPath":"/nnl6OWkyPpuMm595hmAxNW3rZFn.jpg","releaseDate":"1988-03-30","title":"Beetlejuice","video":false,"voteAverage":7.38,"voteCount":6893},{"adult":false,"backdropPath":"/7aPrv2HFssWcOtpig5G3HEVk3uS.jpg","genreIds":[28,12,53],"id":718821,"originalLanguage":"en","originalTitle":"Twisters","overview":"As storm season intensifies, the paths of former storm chaser Kate Carter and reckless social-media superstar Tyler Owens collide when terrifying phenomena never seen before are unleashed. The pair and their competing teams find themselves squarely in the paths of multiple storm systems converging over central Oklahoma in the fight of their lives.","popularity":952.418,"posterPath":"/pjnD08FlMAIXsfOLKQbvmO0f0MD.jpg","releaseDate":"2024-07-10","title":"Twisters","video":false,"voteAverage":6.995,"voteCount":1325},{"adult":false,"backdropPath":"/p5kpFS0P3lIwzwzHBOULQovNWyj.jpg","genreIds":[80,53],"id":1032823,"originalLanguage":"en","originalTitle":"Trap","overview":"A father and teen daughter attend a pop concert, where they realize they're at the center of a dark and sinister event.","popularity":790.927,"posterPath":"/jwoaKYVqPgYemFpaANL941EF94R.jpg","releaseDate":"2024-07-31","title":"Trap","video":false,"voteAverage":6.5,"voteCount":961},{"adult":false,"backdropPath":"/bxwKC4qAbceMgHU1xCCTBK1eYdn.jpg","genreIds":[28,53,80],"id":5492,"originalLanguage":"en","originalTitle":"Gunner","overview":"While on a camping trip in order to reconnect, war veteran Colonel Lee Gunner must save his two sons from a gang of violent bikers when they're kidnapped after accidentally stumbling upon to a massive drug operation.","popularity":779.38,"posterPath":"/5wOdd0PqE2hHGQmePdR1HtRNPgI.jpg","releaseDate":"2024-08-16","title":"Gunner","video":false,"voteAverage":5.227,"voteCount":66},{"adult":false,"backdropPath":"/4ft6TR9wA6bra0RLL6G7JFDQ5t1.jpg","genreIds":[28,35],"id":704239,"originalLanguage":"en","originalTitle":"The Union","overview":"A New Jersey construction worker goes from regular guy to aspiring spy when his long-lost high school sweetheart recruits him for an espionage mission.","popularity":746.184,"posterPath":"/d9CTnTHip1RbVi2OQbA2LJJQAGI.jpg","releaseDate":"2024-08-15","title":"The Union","video":false,"voteAverage":6.255,"voteCount":593},{"adult":false,"backdropPath":"/okVLmXL5y18dfN2R4ufMZEGaeCd.jpg","genreIds":[28,80],"id":1160018,"originalLanguage":"hi","originalTitle":"[0xe0][0xa4][0x95][0xe0][0xa4][0xbf][0xe0][0xa4][0xb2]","overview":"When an army commando finds out his true love is engaged against her will, he boards a New Dehli-bound train in a daring quest to derail the arranged marriage. But when a gang of knife-wielding thieves begin to terrorize innocent passengers on his train, the commando takes them on himself in a death-defying kill-spree to"
-2024-09-11 21:30:53 DEBUG wire:87 -  << " save those around him [0xe2][0x80][0x94] turning what should have been a typical commute into an adrenaline-fueled thrill ride.","popularity":717.652,"posterPath":"/m2zXTuNPkywdYLyWlVyJZW2QOJH.jpg","releaseDate":"2024-07-03","title":"Kill","video":false,"voteAverage":6.8,"voteCount":121},{"adult":false,"backdropPath":"/9SSEUrSqhljBMzRe4aBTh17rUaC.jpg","genreIds":[27,878],"id":945961,"originalLanguage":"en","originalTitle":"Alien: Romulus","overview":"While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.","popularity":692.587,"posterPath":"/b33nnKl1GSFbao4l3fZDDqsMx0F.jpg","releaseDate":"2024-08-13","title":"Alien: Romulus","video":false,"voteAverage":7.1,"voteCount":945},{"adult":false,"backdropPath":"/kwzNUM4yZ26XuNAPSyaWwJeWRP4.jpg","genreIds":[28,35,14],"id":950526,"originalLanguage":"pt","originalTitle":"O Mestre da Fuma[0xc3][0xa7]a","overview":"The journey of Gabriel and Daniel, two brothers cursed by the Chinese mafia with its feared Three Generations Revenge, who have already reaped the life of their grandfather and their father. To survive, one of the brothers must learn the Smoke Style secrets, a little known Cannabis martial art, taught by a single master, high up in the mountains.","popularity":669.081,"posterPath":"/mg6YkwftQOJjpT2ygYlCi11LWeC.jpg","releaseDate":"2023-05-18","title":"The Smoke Master","video":false,"voteAverage":7.2,"voteCount":5},{"adult":false,"backdropPath":"/9BQqngPfwpeAfK7c2H3cwIFWIVR.jpg","genreIds":[10749,18],"id":1079091,"originalLanguage":"en","originalTitle":"It Ends with Us","overview":"When a woman's first love suddenly reenters her life, her relationship with a charming, but abusive neurosurgeon is upended, and she realizes she must learn to rely on her own strength to make an impossible choice for her future.","popularity":666.825,"posterPath":"/4TzwDWpLmb9bWJjlN3iBUdvgarw.jpg","releaseDate":"2024-08-07","title":"It Ends with Us","video":false,"voteAverage":6.739,"voteCount":270},{"adult":false,"backdropPath":"/qkEnklEGDFy4TRVhuHFn2DI2BP6.jpg","genreIds":[27,53],"id":930600,"originalLanguage":"en","originalTitle":"The Deliverance","overview":"Ebony Jackson, a struggling single mother fighting her personal demons, moves her family into a new home for a fresh start. But when strange occurrences inside the home raise the suspicions of Child Protective Services and threaten to tear the family apart, Ebony soon finds herself locked in a battle for her life and the souls of her children.","popularity":631.534,"posterPath":"/og1FteMFRInoQnlZeWqEn8XpXHh.jpg","releaseDate":"2024-08-16","title":"The Deliverance","video":false,"voteAverage":6.34,"voteCount":238},{"adult":false,"backdropPath":"/7mQ13AV4qd6A43XxXfSoyYQMzhh.jpg","genreIds":[35,878],"id":1094138,"originalLanguage":"en","originalTitle":"Jackpot!","overview":"In the near future, a 'Grand Lottery' has been established - the catch: kill the winner before sundown to legally claim their multi-billion dollar jackpot. When Katie Kim mistakenly finds herself with the winning ticket, she reluctantly joins forces with amateur lottery protection agent Noel Cassidy who must get her to sundown in exchange for a piece of her prize.","popularity":630.035,"posterPath":"/fOsamTFIyGxjw1jLSKdZYxQBJOT.jpg","releaseDate":"2024-08-13","title":"Jackpot!","video":false,"voteAverage":6.375,"voteCount":429},{"adult":false,"backdropPath":"/tbgIhYwQ5IAgNaFU1SBBxxNXCmm.jpg","genreIds":[80,28,53],"id":646097,"originalLanguage":"en","originalTitle":"Rebel Ridge","overview":"A former Marine confronts corruption in a small town when local law enforcement unjustly seizes the bag of cash he needs to post his cousin's bail.","popularity":593.718,"posterPath":"/xEt2GSz9z5rSVpIHMiGdtf0czyf.jpg","releaseDate":"2024-08-27","title":"Rebel Ridge","video":false,"voteAverage":6.7,"voteCount":258}],"totalPages":45975,"totalResults":919482}"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "0[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:53 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2c3f8f18
-2024-09-11 21:30:53 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
-2024-09-11 21:30:53 DEBUG wire:73 -  << "55e[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "462[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:87 -  << "{"adult":false,"backdropPath":"/stKGOm8UyhuLPR9sZLjs5AkmncA.jpg","belongsToCollection":null,"budget":200000000,"genres":[{"id":12,"name":"Adventure"},{"id":16,"name":"Animation"},{"id":35,"name":"Comedy"},{"id":10751,"name":"Family"}],"homepage":"https://movies.disney.com/inside-out-2","id":1022789,"imdbId":"tt22022452","originCountry":null,"originalLanguage":"en","originalTitle":"Inside Out 2","overview":"Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who[0xe2][0x80][0x99]ve long been running a successful operation by all accounts, aren[0xe2][0x80][0x99]t sure how to feel when Anxiety shows up. And it looks like she[0xe2][0x80][0x99]s not alone.","popularity":3761.563,"posterPath":"/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg","productionCompanies":[{"id":2,"logoPath":"/wdrCwmRnLFJhEoH8GSfymY85KHT.png","name":"Walt Disney Pictures","originCountry":"US"},{"id":3,"logoPath":"/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png","name":"Pixar","originCountry":"US"}],"productionCountries":[{"iso31661":"US","name":"United States of America"}],"releaseDate":"2024-06-11","revenue":1593089769,"runtime":97,"spokenLanguages":[{"englishName":"English","iso6391":"en","name":"English"}],"status":"Released","tagline":"Make room for new emotions.","title":"Inside Out 2","video":false,"voteAverage":7.614,"voteCount":2349}"
-2024-09-11 21:30:53 DEBUG wire:87 -  << "{"page":1,"results":[{"adult":false,"backdropPath":null,"genreIds":[27],"id":754347,"originalLanguage":"ar","originalTitle":"[0xd8][0xb9][0xd9][0x85][0xd8][0xa7][0xd8][0xb1][0xd8][0xa9] [0xd8][0xb1][0xd8][0xb4][0xd8][0xaf][0xd9][0x8a]","overview":"The events revolve around the Rushdie Building in Alexandria, which revolves around a number of terrifying myths and tales, as it is rumored that it is haunted by spirits, and that anyone who approaches it and tries to live in it finds himself in the street, and an evil young man tries to prove the validity of these rumors about architecture.","popularity":0.935,"posterPath":"/krSzx19K28D6RaAhhZWMUwEqGL2.jpg","releaseDate":"2017-12-13","title":"Roshdy Building","video":false,"voteAverage":0,"voteCount":0},{"adult":false,"backdropPath":null,"genreIds":[99],"id":1227503,"originalLanguage":"ar","originalTitle":"[0xd8][0xa7][0xd9][0x84][0xd8][0xa8][0xd8][0xad][0xd8][0xab] [0xd8][0xb9][0xd9][0x86] [0xd8][0xb1][0xd8][0xb4][0xd8][0xaf][0xd9][0x8a]","overview":"A journey of a Director searching for a beach photographer who took a picture of his father in the 1970s.","popularity":1.422,"posterPath":"/xPOhuSEOD1NyVoD8XqVX6XqUjdb.jpg","releaseDate":"2015-10-30","title":"Searching for Rushdi","video":false,"voteAverage":0,"voteCount":0}],"totalPages":1,"totalResults":2}"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "0[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "0[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:53 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1c363c16
-2024-09-11 21:30:53 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
-2024-09-11 21:30:53 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4bc521f4
-2024-09-11 21:30:53 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
-2024-09-11 21:30:53 INFO  java:29):21 - [91m[FAILED] Test invalidParamter [FAILED][37m
-2024-09-11 21:30:53 INFO  java:15):21 - [94m[START] Test onlyRelativeNameReturned [STARTED][37m
-2024-09-11 21:30:53 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://movieland.runasp.net:80
-2024-09-11 21:30:53 DEBUG DefaultClientConnectionOperator:177 - Connecting to movieland.runasp.net:80
-2024-09-11 21:30:53 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
-2024-09-11 21:30:53 DEBUG RequestAuthCache:77 - Auth cache not set in the context
-2024-09-11 21:30:53 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
-2024-09-11 21:30:53 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
-2024-09-11 21:30:53 DEBUG DefaultHttpClient:677 - Attempt 1 to execute request
-2024-09-11 21:30:53 DEBUG DefaultClientConnection:274 - Sending request: GET /api/Movies/search?query=Jack HTTP/1.1
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "GET /api/Movies/search?query=Jack HTTP/1.1[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Host: movieland.runasp.net[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21)[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  >> "[\r][\n]"
-2024-09-11 21:30:53 DEBUG headers:278 - >> GET /api/Movies/search?query=Jack HTTP/1.1
-2024-09-11 21:30:53 DEBUG headers:281 - >> Accept: */*
-2024-09-11 21:30:53 DEBUG headers:281 - >> Host: movieland.runasp.net
-2024-09-11 21:30:53 DEBUG headers:281 - >> Connection: Keep-Alive
-2024-09-11 21:30:53 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21)
-2024-09-11 21:30:53 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
-2024-09-11 21:30:53 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "X-Powered-By: ASP.NET[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "Date: Wed, 11 Sep 2024 18:30:54 GMT[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:53 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
-2024-09-11 21:30:53 DEBUG headers:262 - << HTTP/1.1 200 OK
-2024-09-11 21:30:53 DEBUG headers:265 - << Transfer-Encoding: chunked
-2024-09-11 21:30:53 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
-2024-09-11 21:30:53 DEBUG headers:265 - << Server: Microsoft-IIS/10.0
-2024-09-11 21:30:53 DEBUG headers:265 - << X-Powered-By: ASP.NET
-2024-09-11 21:30:53 DEBUG headers:265 - << Date: Wed, 11 Sep 2024 18:30:54 GMT
-2024-09-11 21:30:53 DEBUG DefaultHttpClient:504 - Connection can be kept alive indefinitely
-2024-09-11 21:30:53 DEBUG RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8
-2024-09-11 21:30:53 DEBUG RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-2024-09-11 21:30:53 DEBUG wire:73 -  << "3121[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:87 -  << "{"page":1,"results":[{"adult":false,"backdropPath":"/v9wC8Rf3RHYQ6yKO4yQAlQLHSA6.jpg","genreIds":[35,10751,18],"id":7095,"originalLanguage":"en","originalTitle":"Jack","overview":"Jack Powell suffers from an affliction that makes him grow four times faster than normal, so the 10 year old boy looks like a 40 year old man. After years of being tutored at home, Jack convinces his overprotective parents to send him to public school. The children don't know what to make of Jack, but with the help of his fifth-grade teacher, he makes an effort to win them over.","popularity":16.859,"posterPath":"/9ZklgGqTljzg9VxzumbVOC1UKAs.jpg","releaseDate":"1996-08-09","title":"Jack","video":false,"voteAverage":6.293,"voteCount":1231},{"adult":false,"backdropPath":"/sL7nWM42GmSM3XwkXys1FX6N2Tr.jpg","genreIds":[18],"id":25850,"originalLanguage":"sv","originalTitle":"Jack","overview":"Jack spends his days smoking pot, drinking and hitting on girls together with his friends. As opposed to his friends, Jack actually knows what he wants to do with his life, he wants be an author. After a long summer together with his friends Jack finally has an idea for his first book...","popularity":2.194,"posterPath":"/5apyOTAWj8UTh62UJ77gmzrNkqt.jpg","releaseDate":"1976-12-17","title":"Jack","video":false,"voteAverage":6,"voteCount":8},{"adult":false,"backdropPath":"/lv39Kkus0pLLn68tmSVnSX4Tw72.jpg","genreIds":[18],"id":254323,"originalLanguage":"de","originalTitle":"Jack","overview":"Ten-year-old Jack has to take care of his little brother, six-year-old Manuel, every day from the time he gets up to the time he goes to bed. When Manuel suffers an accident, their lives change forever.","popularity":7.711,"posterPath":"/4cLb755niFIB55tXlQKjaBwnEPQ.jpg","releaseDate":"2014-10-09","title":"Jack","video":false,"voteAverage":7,"voteCount":50},{"adult":false,"backdropPath":"/uVg0Bk7jxmxZyGTLbUbUByoiMzs.jpg","genreIds":[18],"id":182858,"originalLanguage":"en","originalTitle":"Jack","overview":"Jack, in full puberty, not only has to deal with his parents' divorce, but also feels his world is falling apart when his dad tells him he is living with a man. He slowly comes to terms with his own feelings when the girl he has a crush on turn out to have a gay dad as well and his best friend's parents end up not having the perfect marriage Jack thought they had.","popularity":3.606,"posterPath":"/5ZtBlXHU6y8y8dUd9nHo2SHpajb.jpg","releaseDate":"2004-06-19","title":"Jack","video":false,"voteAverage":4.9,"voteCount":11},{"adult":false,"backdropPath":"/7mQ13AV4qd6A43XxXfSoyYQMzhh.jpg","genreIds":[35,878],"id":1094138,"originalLanguage":"en","originalTitle":"Jackpot!","overview":"In the near future, a 'Grand Lottery' has been established - the catch: kill the winner before sundown to legally claim their multi-billion dollar jackpot. When Katie Kim mistakenly finds herself with the winning ticket, she reluctantly joins forces with amateur lottery protection agent Noel Cassidy who must get her to sundown in exchange for a piece of her prize.","popularity":630.035,"posterPath":"/fOsamTFIyGxjw1jLSKdZYxQBJOT.jpg","releaseDate":"2024-08-13","title":"Jackpot!","video":false,"voteAverage":6.374,"voteCount":431},{"adult":false,"backdropPath":null,"genreIds":[],"id":176715,"originalLanguage":"en","originalTitle":"Jack","overview":"NDP Leader Jack Layton was fluently bilingual, glib, sometimes flashy, full of energy and always media-friendly. He loved to entertain and uplift his co-workers with a strum on his guitar and spirit in his voice (which wasn't particularly good but he sang with gusto). Growing up in a political family, Layton was a left-wing Toronto city councillor for 17 years and spent a year as head of the Federation of Canadian Municipalities. He became leader of the federal New Democratic Party in 2003... The NDP became the Official Opposition for the first time in history. Going into the 2011 federal election... Written by (STAFF)","popularity":6.025,"posterPath":null,"releaseDate":"2013-03-10","title":"Jack","video":false,"voteAverage":7,"voteCount":1},{"adult":false,"backdropPath":null,"genreIds":[],"id":1090280,"originalLanguage":"en","originalTitle":"Jack","overview":"IN TRANSIT created opportunities for artists and 46 young people with complex needs to collaborate on individual film portraits over an eight year period to 2013. The films describe each young person in a way that is personal, poetic and expansive integrating art into the processes of consultation and person centre planning during transition services. The films played a role in the future lives of the young people involved by revealing their individuality and means of accessing the world. They also informed social care providers, support workers and others involved in planning and providing services about their lives and aspirations.","popularity":0.329,"posterPath":"/bEsoNQSYqOZWum5RT6JIhD9jfo7.jpg","releaseDate":"2005-01-01","title":"Jack","video":false,"voteAverage":0,"voteCount":0},{"adult":false,"backdropPath":"/8li6wrFPemDOVb68Ur93xlon44O.jpg","genreIds":[18,80],"id":358910,"originalLanguage":"de","originalTitle":"Jack","overview":"Delving deep into the soul of one of Austria[0xe2][0x80][0x99]s most infamous real-life convicts, Jack is a fascinating, unprejudiced look at the path to redemption and the obstacles that bar the way.","popularity":1.342,"posterPath":"/oCHrKQEqq6ExyirmwI43EaLdHwI.jpg","releaseDate":"2015-09-10","title":"Jack","video":false,"voteAverage":5.3,"voteCount":3},{"adult":false,"backdropPath":null,"genreIds":[18,35],"id":599805,"originalLanguage":"id","originalTitle":"Jack","overview":"Jack , a youth of Arab descent, was forced to continue the shop owned by his father, Wak Dollah. In order to follow the wishes of his father, Jack is willing to study in a department that is not in line with the world of art that he loves. It is almost seven years he studies there and still does not graduate. The atmosphere become increasingly heated when Wak Dollah learns of Jack's closeness with a Chinese girl, Meyling, Halim's only child. He is the famous owner of a Chinese medicine shop in Surabaya.","popularity":0.859,"posterPath":"/mmiZVmoVibSCcaLHe9TNvbbCx7U.jpg","releaseDate":"2019-05-16","title":"Jack","video":false,"voteAverage":0,"voteCount":0},{"adult":false,"backdropPath":null,"genreIds":[],"id":645448,"originalLanguage":"en","originalTitle":"Jack","overview":"Whilst dealing with the recent loss of her husband, Anna is affected by noises. hauntings and strange visions.","popularity":0.148,"posterPath":null,"releaseDate":"","title":"Jack","video":false,"voteAverage":0,"voteCount":0},{"adult":false,"backdropPath":null,"genreIds":[18],"id":629685,"originalLanguage":"en","originalTitle":"Jack","overview":"The story of \"Jack\" is well-known. It is a beautiful story of a natural child. His mother, Ida de Borancy, worships the dear little nameless and fatherless being whom she decides, as he is getting on in years, to place in a boarding school. The child's professor of literature is a certain Amaury D'Argenton, a failure of the faculty, and an uninspired poet. During one of her visits to the institution, Mme. de Borancy is attracted by D'Argenton, and falls in love with him. The \"Ne'er-do-Well\" soon gives up his starving position and makes his abode with her, exercising over her absolute control. He soon learns to hate little Jack and forces her to leave him permanently at school. The poor child, unaccustomed to the separation, runs away, only to find, when he arrives at his former home, that his mother has moved and is now living thirty miles away. He undertakes the journey on foot, and reaches his mother's house completely exhausted. Here he meets Dr. Rivals and his daughter, Cecil.","popularity":1.319,"posterPath":"/hYPhPNXVj5o7OfdcPZouI9qgYe0.jpg","releaseDate":"1913-09-19","title":"Jack","video":false,"voteAverage":0,"voteCount":0},{"adult":false,"backdropPath":null,"genreIds":[878,35],"id":422271,"originalLanguage":"en","originalT"
-2024-09-11 21:30:53 DEBUG wire:87 -  << "itle":"Jack","overview":"An award winning short film inspired by The Stanley Parable indie game, and The Truman Show. Starring BAFTA nominated Kevan Brighting as the voice actor from the original Stanley Parable indie game and Tristan Coates as Jack. The Stanley Parable is a game about game design, a surreal interactive satire on its medium. While adapting this concept to film, we translated the satirical themes into a commentary on film making; developing the story and style simultaneously to build the world of the writer.  VFX played an important part in creating a world similar to The Stanley Parable. Using green screens and camera tracking we were able to recreate the shifting environment in the game and place the film in an artificial setting.","popularity":0.809,"posterPath":null,"releaseDate":"2016-07-05","title":"Jack","video":false,"voteAverage":4.5,"voteCount":2},{"adult":false,"backdropPath":null,"genreIds":[],"id":386865,"originalLanguage":"en","originalTitle":"Jack","overview":"A horror story in a little more than one minute.","popularity":0.851,"posterPath":null,"releaseDate":"2010-04-16","title":"Jack","video":false,"voteAverage":0,"voteCount":0},{"adult":false,"backdropPath":"/3f47DLT7bJMiHMRm3fsauANhAIM.jpg","genreIds":[35,10749],"id":1061030,"originalLanguage":"en","originalTitle":"Jack","overview":"Jack is Charlie's penis, and he is the brains of the operation, he and Charlie have been friends from birth. When Charlie meets Barbie Le Fleur, a Canadian transfer student Jack will do everything in his power to guide his friend in his quest to enchant his dream girl. With the help of an odd group of characters; from an incredibly handsome School therapist to a sex advisor prostitute and a group of hormonal friends, Charlie will use his \"brain\" to get the girl of his dreams.","popularity":1.251,"posterPath":"/nYf1scFxXVgVQof9iDT80V9vraT.jpg","releaseDate":"2021-11-23","title":"Jack","video":false,"voteAverage":2,"voteCount":1},{"adult":false,"backdropPath":"/3Tv0ZyWIu7eSOYRyvWOG4Kuohjn.jpg","genreIds":[18],"id":968769,"originalLanguage":"en","originalTitle":"Jack","overview":"Jack is a year 11 student who has totally cut himself off from his friends to the extent they don[0xe2][0x80][0x99]t even try to talk to him. Except one: Oscar. Oscar[0xe2][0x80][0x99]s had a hard go of it himself. But what happens when Jack gives in and talks to him?","popularity":0.062,"posterPath":"/u4ST0dxYa0up9P2xOOw6zwGKHEK.jpg","releaseDate":"2022-04-28","title":"Jack","video":false,"voteAverage":0,"voteCount":0},{"adult":false,"backdropPath":null,"genreIds":[],"id":1013222,"originalLanguage":"pt","originalTitle":"Jack","overview":"","popularity":0.088,"posterPath":null,"releaseDate":"","title":"Jack","video":false,"voteAverage":0,"voteCount":0},{"adult":false,"backdropPath":null,"genreIds":[53,18,35],"id":616429,"originalLanguage":"en","originalTitle":"Jack","overview":"Jack is the first of his kind - A CIA Assassin who was raised since birth to be an assassin. But once Jack begins to learn the truth about the CIA and himself, he wants out.","popularity":0.486,"posterPath":"/7aNibFWkZZTNm6tWubJaWGqN24D.jpg","releaseDate":"2017-05-31","title":"Jack","video":false,"voteAverage":0,"voteCount":0},{"adult":false,"backdropPath":null,"genreIds":[16],"id":720941,"originalLanguage":"en","originalTitle":"Jack","overview":"Jack is naked. Jack is pretending to play guitar. Jack looks silly and vulnerable? This piece is inspired by the notion that the exposure of Jesus[0xe2][0x80][0x99] penis was to prove his humanity and vulnerability. Penis = Vulnerability. Penis + Air Guitar = Super Vulnerability.","popularity":0.163,"posterPath":"/uabQKHkJpajKLQF9bwsxRz9EEFC.jpg","releaseDate":"2019-09-27","title":"Jack","video":false,"voteAverage":0,"voteCount":0},{"adult":false,"backdropPath":null,"genreIds":[16],"id":1088780,"originalLanguage":"en","originalTitle":"Jack","overview":"A jack-in-the-box comes to life, leaves his box and dances around. He accidentally strikes another toy, a drinking bird, and breaks it. He then finds himself trapped back in his box, filled with anguish at what he has done. But was it all a dream?","popularity":0.001,"posterPath":null,"releaseDate":"1997-12-31","title":"Jack","video":false,"voteAverage":0,"voteCount":0},{"adult":false,"backdropPath":null,"genreIds":[],"id":1123802,"originalLanguage":"en","originalTitle":"Jack","overview":"Short documentary by Ant[0xc3][0xb3]nio Manuel Silva.","popularity":0.001,"posterPath":null,"releaseDate":"","title":"Jack","video":false,"voteAverage":0,"voteCount":0}],"totalPages":89,"totalResults":1767}"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "0[\r][\n]"
-2024-09-11 21:30:53 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:53 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@b461147
-2024-09-11 21:30:53 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
-2024-09-11 21:30:54 INFO  java:22):21 - [92m[PASSED] Test onlyRelativeNameReturned [PASSED][37m
-2024-09-11 21:30:54 INFO  java:22):21 - [92m[PASSED] Test validID [PASSED][37m
-2024-09-11 21:30:54 INFO  java:22):21 - [92m[PASSED] Test acceptsArabicWords [PASSED][37m
-2024-09-11 21:30:54 INFO  java:15):21 - [94m[START] Test searchWithEmptyQuery [STARTED][37m
-2024-09-11 21:30:54 INFO  java:15):21 - [94m[START] Test searchWithWrongSpelling [STARTED][37m
-2024-09-11 21:30:54 INFO  java:15):21 - [94m[START] Test sqlInjection [STARTED][37m
-2024-09-11 21:30:54 INFO  java:22):21 - [92m[PASSED] Test moviesSortedByRating [PASSED][37m
-2024-09-11 21:30:54 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://movieland.runasp.net:80
-2024-09-11 21:30:54 DEBUG DefaultClientConnectionOperator:177 - Connecting to movieland.runasp.net:80
-2024-09-11 21:30:54 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://movieland.runasp.net:80
-2024-09-11 21:30:54 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://movieland.runasp.net:80
-2024-09-11 21:30:54 DEBUG DefaultClientConnectionOperator:177 - Connecting to movieland.runasp.net:80
-2024-09-11 21:30:54 DEBUG DefaultClientConnectionOperator:177 - Connecting to movieland.runasp.net:80
-2024-09-11 21:30:54 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
-2024-09-11 21:30:54 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
-2024-09-11 21:30:54 DEBUG RequestAuthCache:77 - Auth cache not set in the context
-2024-09-11 21:30:54 DEBUG RequestAuthCache:77 - Auth cache not set in the context
-2024-09-11 21:30:54 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
-2024-09-11 21:30:54 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
-2024-09-11 21:30:54 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
-2024-09-11 21:30:54 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
-2024-09-11 21:30:54 DEBUG DefaultHttpClient:677 - Attempt 1 to execute request
-2024-09-11 21:30:54 DEBUG DefaultHttpClient:677 - Attempt 1 to execute request
-2024-09-11 21:30:54 DEBUG DefaultClientConnection:274 - Sending request: GET /api/Movies/search?query=select%20*%20from%20movies HTTP/1.1
-2024-09-11 21:30:54 DEBUG DefaultClientConnection:274 - Sending request: GET /api/Movies/search?query=bad%20bys HTTP/1.1
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "GET /api/Movies/search?query=select%20*%20from%20movies HTTP/1.1[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "GET /api/Movies/search?query=bad%20bys HTTP/1.1[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "Host: movieland.runasp.net[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "Host: movieland.runasp.net[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21)[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21)[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "[\r][\n]"
-2024-09-11 21:30:54 DEBUG headers:278 - >> GET /api/Movies/search?query=select%20*%20from%20movies HTTP/1.1
-2024-09-11 21:30:54 DEBUG headers:278 - >> GET /api/Movies/search?query=bad%20bys HTTP/1.1
-2024-09-11 21:30:54 DEBUG headers:281 - >> Accept: */*
-2024-09-11 21:30:54 DEBUG headers:281 - >> Accept: */*
-2024-09-11 21:30:54 DEBUG headers:281 - >> Host: movieland.runasp.net
-2024-09-11 21:30:54 DEBUG headers:281 - >> Host: movieland.runasp.net
-2024-09-11 21:30:54 DEBUG headers:281 - >> Connection: Keep-Alive
-2024-09-11 21:30:54 DEBUG headers:281 - >> Connection: Keep-Alive
-2024-09-11 21:30:54 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21)
-2024-09-11 21:30:54 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
-2024-09-11 21:30:54 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21)
-2024-09-11 21:30:54 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
-2024-09-11 21:30:54 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
-2024-09-11 21:30:54 DEBUG RequestAuthCache:77 - Auth cache not set in the context
-2024-09-11 21:30:54 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
-2024-09-11 21:30:54 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
-2024-09-11 21:30:54 DEBUG DefaultHttpClient:677 - Attempt 1 to execute request
-2024-09-11 21:30:54 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
-2024-09-11 21:30:54 DEBUG DefaultClientConnection:274 - Sending request: GET /api/Movies/search?query= HTTP/1.1
-2024-09-11 21:30:54 DEBUG RequestAuthCache:77 - Auth cache not set in the context
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "GET /api/Movies/search?query= HTTP/1.1[\r][\n]"
-2024-09-11 21:30:54 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
-2024-09-11 21:30:54 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
-2024-09-11 21:30:54 DEBUG DefaultHttpClient:677 - Attempt 1 to execute request
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "Host: movieland.runasp.net[\r][\n]"
-2024-09-11 21:30:54 DEBUG DefaultClientConnection:274 - Sending request: GET /api/Movies/Details/50 HTTP/1.1
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21)[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "GET /api/Movies/Details/50 HTTP/1.1[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "Host: movieland.runasp.net[\r][\n]"
-2024-09-11 21:30:54 DEBUG headers:278 - >> GET /api/Movies/search?query= HTTP/1.1
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
-2024-09-11 21:30:54 DEBUG headers:281 - >> Accept: */*
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21)[\r][\n]"
-2024-09-11 21:30:54 DEBUG headers:281 - >> Host: movieland.runasp.net
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-2024-09-11 21:30:54 DEBUG headers:281 - >> Connection: Keep-Alive
-2024-09-11 21:30:54 DEBUG wire:73 -  >> "[\r][\n]"
-2024-09-11 21:30:54 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21)
-2024-09-11 21:30:54 DEBUG headers:278 - >> GET /api/Movies/Details/50 HTTP/1.1
-2024-09-11 21:30:54 DEBUG headers:281 - >> Accept: */*
-2024-09-11 21:30:54 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
-2024-09-11 21:30:54 DEBUG headers:281 - >> Host: movieland.runasp.net
-2024-09-11 21:30:54 DEBUG headers:281 - >> Connection: Keep-Alive
-2024-09-11 21:30:54 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21)
-2024-09-11 21:30:54 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
-2024-09-11 21:30:54 DEBUG wire:73 -  << "HTTP/1.1 400 Bad Request[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "Content-Type: application/problem+json; charset=utf-8[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "X-Powered-By: ASP.NET[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "X-Powered-By: ASP.NET[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "Date: Wed, 11 Sep 2024 18:30:55 GMT[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "Date: Wed, 11 Sep 2024 18:30:55 GMT[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "X-Powered-By: ASP.NET[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "Date: Wed, 11 Sep 2024 18:30:55 GMT[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:54 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
-2024-09-11 21:30:54 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:54 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 400 Bad Request
-2024-09-11 21:30:54 DEBUG headers:262 - << HTTP/1.1 200 OK
-2024-09-11 21:30:54 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
-2024-09-11 21:30:54 DEBUG headers:262 - << HTTP/1.1 400 Bad Request
-2024-09-11 21:30:54 DEBUG headers:265 - << Transfer-Encoding: chunked
-2024-09-11 21:30:54 DEBUG headers:262 - << HTTP/1.1 200 OK
-2024-09-11 21:30:54 DEBUG headers:265 - << Transfer-Encoding: chunked
-2024-09-11 21:30:54 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
-2024-09-11 21:30:54 DEBUG headers:265 - << Transfer-Encoding: chunked
-2024-09-11 21:30:54 DEBUG headers:265 - << Content-Type: application/problem+json; charset=utf-8
-2024-09-11 21:30:54 DEBUG headers:265 - << Server: Microsoft-IIS/10.0
-2024-09-11 21:30:54 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
-2024-09-11 21:30:54 DEBUG headers:265 - << Server: Microsoft-IIS/10.0
-2024-09-11 21:30:54 DEBUG headers:265 - << Server: Microsoft-IIS/10.0
-2024-09-11 21:30:54 DEBUG headers:265 - << X-Powered-By: ASP.NET
-2024-09-11 21:30:54 DEBUG headers:265 - << X-Powered-By: ASP.NET
-2024-09-11 21:30:54 DEBUG headers:265 - << X-Powered-By: ASP.NET
-2024-09-11 21:30:54 DEBUG headers:265 - << Date: Wed, 11 Sep 2024 18:30:55 GMT
-2024-09-11 21:30:54 DEBUG headers:265 - << Date: Wed, 11 Sep 2024 18:30:55 GMT
-2024-09-11 21:30:54 DEBUG headers:265 - << Date: Wed, 11 Sep 2024 18:30:55 GMT
-2024-09-11 21:30:54 DEBUG DefaultHttpClient:504 - Connection can be kept alive indefinitely
-2024-09-11 21:30:54 DEBUG DefaultHttpClient:504 - Connection can be kept alive indefinitely
-2024-09-11 21:30:54 DEBUG DefaultHttpClient:504 - Connection can be kept alive indefinitely
-2024-09-11 21:30:54 DEBUG RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8
-2024-09-11 21:30:54 DEBUG RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8
-2024-09-11 21:30:54 DEBUG RestAssuredHttpBuilder:553 - Parsing response as: application/problem+json; charset=utf-8
-2024-09-11 21:30:54 DEBUG RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-2024-09-11 21:30:54 DEBUG RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-2024-09-11 21:30:54 DEBUG RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-2024-09-11 21:30:54 DEBUG wire:73 -  << "37[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:87 -  << "{"page":1,"results":[],"totalPages":1,"totalResults":0}"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "0[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:54 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6d67253
-2024-09-11 21:30:54 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
-2024-09-11 21:30:54 INFO  java:22):21 - [92m[PASSED] Test searchWithEmptyQuery [PASSED][37m
-2024-09-11 21:30:54 INFO  java:22):21 - [92m[PASSED] Test sqlInjection [PASSED][37m
-2024-09-11 21:30:54 INFO  java:29):21 - [91m[FAILED] Test searchWithWrongSpelling [FAILED][37m
-2024-09-11 21:30:54 DEBUG wire:73 -  << "HTTP/1.1 404 Not Found[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "X-Powered-By: ASP.NET[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "Date: Wed, 11 Sep 2024 18:30:55 GMT[\r][\n]"
-2024-09-11 21:30:54 DEBUG wire:73 -  << "[\r][\n]"
-2024-09-11 21:30:54 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 404 Not Found
-2024-09-11 21:30:54 DEBUG headers:262 - << HTTP/1.1 404 Not Found
-2024-09-11 21:30:54 DEBUG headers:265 - << Transfer-Encoding: chunked
-2024-09-11 21:30:54 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
-2024-09-11 21:30:54 DEBUG headers:265 - << Server: Microsoft-IIS/10.0
-2024-09-11 21:30:54 DEBUG headers:265 - << X-Powered-By: ASP.NET
-2024-09-11 21:30:54 DEBUG headers:265 - << Date: Wed, 11 Sep 2024 18:30:55 GMT
-2024-09-11 21:30:54 DEBUG DefaultHttpClient:504 - Connection can be kept alive indefinitely
-2024-09-11 21:30:54 DEBUG RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8
-2024-09-11 21:30:54 DEBUG RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-2024-09-11 21:30:54 INFO  java:29):21 - [91m[FAILED] Test invalidID [FAILED][37m
-2024-09-11 21:30:54 INFO  java:47):21 - [95m[ALL TESTS COMPLETED]: API [37m
-2024-09-11 21:30:54 INFO  java:42):21 - [96m[START] UI Cross Browser Chrome [TESTS STARTED][37m
-2024-09-11 21:30:54 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:6451<->161.97.158.137:80 closed
-2024-09-11 21:30:54 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:6452<->161.97.158.137:80 closed
-2024-09-11 21:30:54 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:6453<->161.97.158.137:80 closed
-2024-09-11 21:30:55 INFO  java:38):21 - [96m[START] CHROME[94m Scenario Verify that the No Results Found message is displayed when there are no matching items [START]
-[37m
-2024-09-11 21:30:55 INFO  java:55):21 - [92mChrome Options Configured[37m
-2024-09-11 21:31:04 INFO  java:13):21 - [92mSuccessfully loaded properties file: C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\src\main\resources\properties\default\config[37m
-2024-09-11 21:31:04 ERROR java:15):31 - [91mFailed to load properties file: C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\src\main\resources\properties\default\config.properties[37m
-2024-09-11 21:31:04 ERROR java:16):41 - Exception occurred: 
-java.io.FileNotFoundException: C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\src\main\resources\properties\default\config.properties.properties (The system cannot find the file specified)
-	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
-	at Ellithium.Utilities.PropertyHelper.getDataFromProperties(PropertyHelper.java:12) ~[Ellithium-1.0.0.jar:?]
-	at Ellithium.com.CucumberDefaultHooks.initTimeout(CucumberDefaultHooks.java:114) ~[Ellithium-1.0.0.jar:?]
-	at Ellithium.com.CucumberDefaultHooks.setUp(CucumberDefaultHooks.java:60) ~[Ellithium-1.0.0.jar:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:78) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.18.0.jar:7.18.0]
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.18.0.jar:7.18.0]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-2024-09-11 21:31:04 ERROR java:117):41 - Exception occurred: 
-java.lang.RuntimeException: java.io.FileNotFoundException: C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\src\main\resources\properties\default\config.properties.properties (The system cannot find the file specified)
-	at Ellithium.Utilities.PropertyHelper.getDataFromProperties(PropertyHelper.java:17) ~[Ellithium-1.0.0.jar:?]
-	at Ellithium.com.CucumberDefaultHooks.initTimeout(CucumberDefaultHooks.java:114) ~[Ellithium-1.0.0.jar:?]
-	at Ellithium.com.CucumberDefaultHooks.setUp(CucumberDefaultHooks.java:60) ~[Ellithium-1.0.0.jar:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:78) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.18.0.jar:7.18.0]
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.18.0.jar:7.18.0]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.io.FileNotFoundException: C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\src\main\resources\properties\default\config.properties.properties (The system cannot find the file specified)
-	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
-	at Ellithium.Utilities.PropertyHelper.getDataFromProperties(PropertyHelper.java:12) ~[Ellithium-1.0.0.jar:?]
-	... 31 more
-2024-09-11 21:31:04 INFO  java:10):21 - [92mWebDriver Created[37m
-2024-09-11 21:31:08 INFO  java:106):21 - [95mLevel: error[37m
-2024-09-11 21:31:08 INFO  java:107):21 - [94mText: Failed to load resource: the server responded with a status of 404 ()[37m
-2024-09-11 21:31:08 INFO  java:108):21 - [93mURL: Optional[https://www.noon.com/_svc/catalog/api/v3/u/account-loyalty][37m
-2024-09-11 21:31:08 INFO  java:109):21 - [93mStackTrace: Optional.empty[37m
-2024-09-11 21:31:08 INFO  java:106):21 - [95mLevel: error[37m
-2024-09-11 21:31:08 INFO  java:107):21 - [94mText: Failed to load resource: the server responded with a status of 403 ()[37m
-2024-09-11 21:31:08 INFO  java:108):21 - [93mURL: Optional[https://www.noon.com/_svc/customer-v1/customer/addresses][37m
-2024-09-11 21:31:08 INFO  java:109):21 - [93mStackTrace: Optional.empty[37m
-2024-09-11 21:31:08 INFO  java:106):21 - [95mLevel: error[37m
-2024-09-11 21:31:08 INFO  java:107):21 - [94mText: Failed to load resource: the server responded with a status of 400 ()[37m
-2024-09-11 21:31:08 INFO  java:108):21 - [93mURL: Optional[https://www.noon.com/_svc/mp-identity-api/customer/get][37m
-2024-09-11 21:31:08 INFO  java:109):21 - [93mStackTrace: Optional.empty[37m
-2024-09-11 21:31:08 INFO  java:106):21 - [95mLevel: error[37m
-2024-09-11 21:31:08 INFO  java:107):21 - [94mText: Failed to load resource: the server responded with a status of 400 ()[37m
-2024-09-11 21:31:08 INFO  java:108):21 - [93mURL: Optional[https://www.noon.com/_svc/smartassist/entry-points][37m
-2024-09-11 21:31:08 INFO  java:109):21 - [93mStackTrace: Optional.empty[37m
-2024-09-11 21:31:09 INFO  java:25):21 - [94mSending Data "رئيس جمهورية للبيع" To Element: By.id: searchBar[37m
-2024-09-11 21:31:12 INFO  java:34):21 - [94mSending Data "" To Element: By.id: searchBar[37m
-2024-09-11 21:31:15 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:6447<->161.97.158.137:80 closed
-2024-09-11 21:31:15 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:6448<->161.97.158.137:80 closed
-2024-09-11 21:31:15 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:6445<->161.97.158.137:80 closed
-2024-09-11 21:31:15 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:6450<->161.97.158.137:80 closed
-2024-09-11 21:31:15 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:6449<->161.97.158.137:80 closed
-2024-09-11 21:31:15 INFO  java:72):21 - [91m CHROME[FAILED] Scenario Verify that the No Results Found message is displayed when there are no matching items [FAILED][37m
-2024-09-11 21:31:15 INFO  java:13):21 - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[37m
-2024-09-11 21:31:16 INFO  java:38):21 - [96m[START] CHROME[94m Scenario Verify that user can search with product Company  name [START]
-[37m
-2024-09-11 21:31:16 INFO  java:55):21 - [92mChrome Options Configured[37m
-2024-09-11 21:31:18 INFO  java:13):21 - [92mSuccessfully loaded properties file: C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\src\main\resources\properties\default\config[37m
-2024-09-11 21:31:18 ERROR java:15):31 - [91mFailed to load properties file: C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\src\main\resources\properties\default\config.properties[37m
-2024-09-11 21:31:18 ERROR java:16):41 - Exception occurred: 
-java.io.FileNotFoundException: C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\src\main\resources\properties\default\config.properties.properties (The system cannot find the file specified)
-	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
-	at Ellithium.Utilities.PropertyHelper.getDataFromProperties(PropertyHelper.java:12) ~[Ellithium-1.0.0.jar:?]
-	at Ellithium.com.CucumberDefaultHooks.initTimeout(CucumberDefaultHooks.java:114) ~[Ellithium-1.0.0.jar:?]
-	at Ellithium.com.CucumberDefaultHooks.setUp(CucumberDefaultHooks.java:60) ~[Ellithium-1.0.0.jar:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:78) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.18.0.jar:7.18.0]
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.18.0.jar:7.18.0]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-2024-09-11 21:31:18 ERROR java:117):41 - Exception occurred: 
-java.lang.RuntimeException: java.io.FileNotFoundException: C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\src\main\resources\properties\default\config.properties.properties (The system cannot find the file specified)
-	at Ellithium.Utilities.PropertyHelper.getDataFromProperties(PropertyHelper.java:17) ~[Ellithium-1.0.0.jar:?]
-	at Ellithium.com.CucumberDefaultHooks.initTimeout(CucumberDefaultHooks.java:114) ~[Ellithium-1.0.0.jar:?]
-	at Ellithium.com.CucumberDefaultHooks.setUp(CucumberDefaultHooks.java:60) ~[Ellithium-1.0.0.jar:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:78) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.18.0.jar:7.18.0]
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.18.0.jar:7.18.0]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.io.FileNotFoundException: C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\src\main\resources\properties\default\config.properties.properties (The system cannot find the file specified)
-	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
-	at Ellithium.Utilities.PropertyHelper.getDataFromProperties(PropertyHelper.java:12) ~[Ellithium-1.0.0.jar:?]
-	... 31 more
-2024-09-11 21:31:18 INFO  java:10):21 - [92mWebDriver Created[37m
-2024-09-11 21:31:21 INFO  java:106):21 - [95mLevel: error[37m
-2024-09-11 21:31:21 INFO  java:107):21 - [94mText: Failed to load resource: the server responded with a status of 400 ()[37m
-2024-09-11 21:31:21 INFO  java:108):21 - [93mURL: Optional[https://www.noon.com/_svc/mp-identity-api/customer/get][37m
-2024-09-11 21:31:21 INFO  java:109):21 - [93mStackTrace: Optional.empty[37m
-2024-09-11 21:31:22 INFO  java:106):21 - [95mLevel: error[37m
-2024-09-11 21:31:22 INFO  java:107):21 - [94mText: Failed to load resource: the server responded with a status of 403 ()[37m
-2024-09-11 21:31:22 INFO  java:108):21 - [93mURL: Optional[https://www.noon.com/_svc/customer-v1/customer/addresses][37m
-2024-09-11 21:31:22 INFO  java:109):21 - [93mStackTrace: Optional.empty[37m
-2024-09-11 21:31:22 INFO  java:106):21 - [95mLevel: error[37m
-2024-09-11 21:31:22 INFO  java:107):21 - [94mText: Failed to load resource: the server responded with a status of 404 ()[37m
-2024-09-11 21:31:22 INFO  java:108):21 - [93mURL: Optional[https://www.noon.com/_svc/catalog/api/v3/u/account-loyalty][37m
-2024-09-11 21:31:22 INFO  java:109):21 - [93mStackTrace: Optional.empty[37m
-2024-09-11 21:31:22 INFO  java:106):21 - [95mLevel: error[37m
-2024-09-11 21:31:22 INFO  java:107):21 - [94mText: Failed to load resource: the server responded with a status of 400 ()[37m
-2024-09-11 21:31:22 INFO  java:108):21 - [93mURL: Optional[https://www.noon.com/_svc/smartassist/entry-points][37m
-2024-09-11 21:31:22 INFO  java:109):21 - [93mStackTrace: Optional.empty[37m
-2024-09-11 21:31:22 INFO  java:25):21 - [94mSending Data "dell" To Element: By.id: searchBar[37m
-2024-09-11 21:31:23 INFO  java:34):21 - [94mSending Data "" To Element: By.id: searchBar[37m
-2024-09-11 21:31:25 INFO  java:86):21 - [92m chrome[PASSED] Scenario Verify that user can search with product Company  name [PASSED][37m
-2024-09-11 21:31:25 INFO  java:13):21 - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[37m
-2024-09-11 21:31:25 INFO  java:38):21 - [96m[START] CHROME[94m Scenario Verify that user can search with partially product  name [START]
-[37m
-2024-09-11 21:31:25 INFO  java:55):21 - [92mChrome Options Configured[37m
-2024-09-11 21:31:27 INFO  java:13):21 - [92mSuccessfully loaded properties file: C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\src\main\resources\properties\default\config[37m
-2024-09-11 21:31:27 ERROR java:15):31 - [91mFailed to load properties file: C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\src\main\resources\properties\default\config.properties[37m
-2024-09-11 21:31:27 ERROR java:16):41 - Exception occurred: 
-java.io.FileNotFoundException: C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\src\main\resources\properties\default\config.properties.properties (The system cannot find the file specified)
-	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
-	at Ellithium.Utilities.PropertyHelper.getDataFromProperties(PropertyHelper.java:12) ~[Ellithium-1.0.0.jar:?]
-	at Ellithium.com.CucumberDefaultHooks.initTimeout(CucumberDefaultHooks.java:114) ~[Ellithium-1.0.0.jar:?]
-	at Ellithium.com.CucumberDefaultHooks.setUp(CucumberDefaultHooks.java:60) ~[Ellithium-1.0.0.jar:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:78) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.18.0.jar:7.18.0]
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.18.0.jar:7.18.0]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-2024-09-11 21:31:27 ERROR java:117):41 - Exception occurred: 
-java.lang.RuntimeException: java.io.FileNotFoundException: C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\src\main\resources\properties\default\config.properties.properties (The system cannot find the file specified)
-	at Ellithium.Utilities.PropertyHelper.getDataFromProperties(PropertyHelper.java:17) ~[Ellithium-1.0.0.jar:?]
-	at Ellithium.com.CucumberDefaultHooks.initTimeout(CucumberDefaultHooks.java:114) ~[Ellithium-1.0.0.jar:?]
-	at Ellithium.com.CucumberDefaultHooks.setUp(CucumberDefaultHooks.java:60) ~[Ellithium-1.0.0.jar:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:78) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.0.jar:7.18.0]
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.18.0.jar:7.18.0]
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.18.0.jar:7.18.0]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81) ~[testng-7.10.2.jar:7.10.2]
-	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34) ~[testng-7.10.2.jar:7.10.2]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.io.FileNotFoundException: C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\src\main\resources\properties\default\config.properties.properties (The system cannot find the file specified)
-	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
-	at Ellithium.Utilities.PropertyHelper.getDataFromProperties(PropertyHelper.java:12) ~[Ellithium-1.0.0.jar:?]
-	... 31 more
-2024-09-11 21:31:27 INFO  java:10):21 - [92mWebDriver Created[37m
-2024-09-11 21:31:30 INFO  java:106):21 - [95mLevel: error[37m
-2024-09-11 21:31:30 INFO  java:107):21 - [94mText: Failed to load resource: the server responded with a status of 400 ()[37m
-2024-09-11 21:31:30 INFO  java:108):21 - [93mURL: Optional[https://www.noon.com/_svc/mp-identity-api/customer/get][37m
-2024-09-11 21:31:30 INFO  java:109):21 - [93mStackTrace: Optional.empty[37m
-2024-09-11 21:31:31 INFO  java:106):21 - [95mLevel: error[37m
-2024-09-11 21:31:31 INFO  java:107):21 - [94mText: Failed to load resource: the server responded with a status of 404 ()[37m
-2024-09-11 21:31:31 INFO  java:108):21 - [93mURL: Optional[https://www.noon.com/_svc/catalog/api/v3/u/account-loyalty][37m
-2024-09-11 21:31:31 INFO  java:109):21 - [93mStackTrace: Optional.empty[37m
-2024-09-11 21:31:31 INFO  java:106):21 - [95mLevel: error[37m
-2024-09-11 21:31:31 INFO  java:107):21 - [94mText: Failed to load resource: the server responded with a status of 403 ()[37m
-2024-09-11 21:31:31 INFO  java:108):21 - [93mURL: Optional[https://www.noon.com/_svc/customer-v1/customer/addresses][37m
-2024-09-11 21:31:31 INFO  java:109):21 - [93mStackTrace: Optional.empty[37m
-2024-09-11 21:31:31 INFO  java:106):21 - [95mLevel: error[37m
-2024-09-11 21:31:31 INFO  java:107):21 - [94mText: Failed to load resource: the server responded with a status of 400 ()[37m
-2024-09-11 21:31:31 INFO  java:108):21 - [93mURL: Optional[https://www.noon.com/_svc/smartassist/entry-points][37m
-2024-09-11 21:31:31 INFO  java:109):21 - [93mStackTrace: Optional.empty[37m
-2024-09-11 21:31:31 INFO  java:25):21 - [94mSending Data "lapt" To Element: By.id: searchBar[37m
-2024-09-11 21:31:31 INFO  java:34):21 - [94mSending Data "" To Element: By.id: searchBar[37m
-2024-09-11 21:31:31 INFO  java:34):21 - [94mSending Data "" To Element: By.id: searchBar[37m
-2024-09-11 21:31:32 INFO  java:86):21 - [92m chrome[PASSED] Scenario Verify that user can search with partially product  name [PASSED][37m
-2024-09-11 21:31:32 INFO  java:13):21 - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[37m
-2024-09-11 21:31:33 INFO  java:47):21 - [95m[ALL TESTS COMPLETED]: UI Cross Browser Chrome[37m
-2024-09-11 21:31:33 TRACE Graph:52 - [Graph] ADDING NODE DetailsTests.invalidID()[pri:0, instance:API.DetailsTests@6ea1bcdc] 1968579324
-2024-09-11 21:31:33 TRACE Graph:52 - [Graph] ADDING NODE DetailsTests.invalidParamter()[pri:0, instance:API.DetailsTests@6ea1bcdc] 970457221
-2024-09-11 21:31:33 TRACE Graph:52 - [Graph] ADDING NODE DetailsTests.validID()[pri:0, instance:API.DetailsTests@6ea1bcdc] -1509094759
-2024-09-11 21:31:33 TRACE Graph:52 - [Graph] ADDING NODE PopularTests.moviesSortedByRating()[pri:0, instance:API.PopularTests@782a4fff] 787397176
-2024-09-11 21:31:33 TRACE Graph:52 - [Graph] ADDING NODE SearchTest.acceptsArabicWords()[pri:0, instance:API.SearchTest@46c670a6] 1780747979
-2024-09-11 21:31:33 TRACE Graph:52 - [Graph] ADDING NODE SearchTest.onlyRelativeNameReturned()[pri:0, instance:API.SearchTest@46c670a6] -541225717
-2024-09-11 21:31:33 TRACE Graph:52 - [Graph] ADDING NODE SearchTest.searchWithEmptyQuery()[pri:0, instance:API.SearchTest@46c670a6] 1630419712
-2024-09-11 21:31:33 TRACE Graph:52 - [Graph] ADDING NODE SearchTest.searchWithWrongSpelling()[pri:0, instance:API.SearchTest@46c670a6] -1176840496
-2024-09-11 21:31:33 TRACE Graph:52 - [Graph] ADDING NODE SearchTest.sqlInjection()[pri:0, instance:API.SearchTest@46c670a6] -1979197184
-2024-09-11 21:31:33 TRACE Graph:52 - [Graph] ================ SORTING
-2024-09-11 21:31:33 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2024-09-11 21:31:33 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2024-09-11 21:31:33 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2024-09-11 21:31:33 TRACE Graph:52 - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:UI.TestRunner.Runner@585811a4] 331807349
-2024-09-11 21:31:33 TRACE Graph:52 - [Graph] ================ SORTING
-2024-09-11 21:31:33 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2024-09-11 21:31:33 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2024-09-11 21:31:33 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2024-09-11 21:31:33 INFO  java:61):21 - [94m-----------------------------------------------------[37m
-2024-09-11 21:31:33 INFO  java:62):21 - [96m------- Ellithium  Engine TearDown  -------[37m
-2024-09-11 21:31:33 INFO  java:63):21 - [94m-----------------------------------------------------[37m
-2024-09-11 21:31:33 INFO  java:69):21 - [96m
-Total Execution Time is: 0 Min 42 Sec 829 Mills
-[37m
-2024-09-11 21:31:33 INFO  java:13):21 - [92mSuccessfully loaded properties file: C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\src\main\resources\properties\default\allure[37m
-2024-09-11 21:31:33 INFO  java:13):21 - [92mSuccessfully loaded properties file: C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\src\main\resources\properties\default\allure[37m
-2024-09-11 21:31:33 INFO  java:13):21 - [92mSuccessfully loaded properties file: C:\Users\lenovo\IdeaProjects\Ellithium Demo Project\src\main\resources\properties\default\allure[37m
-2024-09-11 21:31:33 INFO  java:58):21 - [92mAllure folder exists at: C:\Users\lenovo\.m2\repository\allure-Ellithium[37m
-2024-09-11 21:31:33 INFO  java:67):21 - [92mFound Allure binary directory: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin[37m
-2024-09-11 21:31:36 INFO  java:17):21 - [92mCommand exited with code: 0[37m
-2024-09-11 21:31:36 INFO  java:37):21 - [92mAllure server is running. Press CTRL+C to stop the server.[37m
+2024-09-28 17:42:12 DEBUG TestNG - suiteXmlPath: "C:\Users\lenovo\IdeaProjects\Noon-Shopping-Website-Manual-Automation-\TestNGRunner.xml"
+2024-09-28 17:42:12 TRACE Graph - [Graph] ADDING NODE MyEndPointTests.getAllUsersRequest()[pri:0, instance:APITests.MyEndPointTests@4940809c] 125270738
+2024-09-28 17:42:12 TRACE Graph - [Graph] ================ SORTING
+2024-09-28 17:42:12 TRACE Graph - [Graph] =============== DONE SORTING
+2024-09-28 17:42:12 TRACE Graph - [Graph] ====== SORTED NODES
+2024-09-28 17:42:12 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-09-28 17:42:12 TRACE Graph - [Graph] ADDING NODE BDDSetup.BrowserConfig(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:null] 136420242
+2024-09-28 17:42:12 TRACE Graph - [Graph] ================ SORTING
+2024-09-28 17:42:12 TRACE Graph - [Graph] =============== DONE SORTING
+2024-09-28 17:42:12 TRACE Graph - [Graph] ====== SORTED NODES
+2024-09-28 17:42:12 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-09-28 17:42:12 TRACE Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
+2024-09-28 17:42:12 TRACE Graph - [Graph] ================ SORTING
+2024-09-28 17:42:12 TRACE Graph - [Graph] =============== DONE SORTING
+2024-09-28 17:42:12 TRACE Graph - [Graph] ====== SORTED NODES
+2024-09-28 17:42:12 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-09-28 17:42:12 TRACE Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
+2024-09-28 17:42:12 TRACE Graph - [Graph] ================ SORTING
+2024-09-28 17:42:12 TRACE Graph - [Graph] =============== DONE SORTING
+2024-09-28 17:42:12 TRACE Graph - [Graph] ====== SORTED NODES
+2024-09-28 17:42:12 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-09-28 17:42:12 TRACE Graph - [Graph] ADDING NODE BDDSetup.BrowserConfig(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Runner.TestRunner@6d6bc158] 1769838598
+2024-09-28 17:42:12 TRACE Graph - [Graph] ================ SORTING
+2024-09-28 17:42:12 TRACE Graph - [Graph] =============== DONE SORTING
+2024-09-28 17:42:12 TRACE Graph - [Graph] ====== SORTED NODES
+2024-09-28 17:42:12 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-09-28 17:42:12 TRACE Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6d6bc158] 685419049
+2024-09-28 17:42:12 TRACE Graph - [Graph] ================ SORTING
+2024-09-28 17:42:12 TRACE Graph - [Graph] =============== DONE SORTING
+2024-09-28 17:42:12 TRACE Graph - [Graph] ====== SORTED NODES
+2024-09-28 17:42:12 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-09-28 17:42:13 DEBUG BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+2024-09-28 17:42:14 DEBUG DefaultClientConnectionOperator - Connecting to api.github.com:443
+2024-09-28 17:42:14 DEBUG RequestAddCookies - CookieSpec selected: ignoreCookies
+2024-09-28 17:42:14 DEBUG RequestAuthCache - Auth cache not set in the context
+2024-09-28 17:42:14 DEBUG RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2024-09-28 17:42:14 DEBUG RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2024-09-28 17:42:14 DEBUG DefaultHttpClient - Attempt 1 to execute request
+2024-09-28 17:42:14 DEBUG DefaultClientConnection - Sending request: GET /repos/Abdelrhman-Ellithy/Ellithium/releases/latest HTTP/1.1
+2024-09-28 17:42:14 DEBUG wire -  >> "GET /repos/Abdelrhman-Ellithy/Ellithium/releases/latest HTTP/1.1[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  >> "Accept: */*[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  >> "Host: api.github.com[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  >> "Connection: Keep-Alive[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21)[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  >> "[\r][\n]"
+2024-09-28 17:42:14 DEBUG headers - >> GET /repos/Abdelrhman-Ellithy/Ellithium/releases/latest HTTP/1.1
+2024-09-28 17:42:14 DEBUG headers - >> Accept: */*
+2024-09-28 17:42:14 DEBUG headers - >> Host: api.github.com
+2024-09-28 17:42:14 DEBUG headers - >> Connection: Keep-Alive
+2024-09-28 17:42:14 DEBUG headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21)
+2024-09-28 17:42:14 DEBUG headers - >> Accept-Encoding: gzip,deflate
+2024-09-28 17:42:14 DEBUG wire -  << "HTTP/1.1 200 OK[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "Date: Sat, 28 Sep 2024 14:42:15 GMT[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "ETag: W/"621aaf04679570ac7ca2781e77352088d04c7978ee0b66e15a7d3cd88bb1dc2d"[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "Last-Modified: Sat, 28 Sep 2024 08:19:52 GMT[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "X-Frame-Options: deny[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "X-XSS-Protection: 0[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "Content-Encoding: gzip[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "Server: github.com[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "X-RateLimit-Remaining: 59[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "X-RateLimit-Reset: 1727538135[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "X-RateLimit-Resource: core[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "X-RateLimit-Used: 1[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "Accept-Ranges: bytes[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "Content-Length: 965[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "X-GitHub-Request-Id: A205:16B44A:6225512:6394D30:66F815C7[\r][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "[\r][\n]"
+2024-09-28 17:42:14 DEBUG DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+2024-09-28 17:42:14 DEBUG headers - << HTTP/1.1 200 OK
+2024-09-28 17:42:14 DEBUG headers - << Date: Sat, 28 Sep 2024 14:42:15 GMT
+2024-09-28 17:42:14 DEBUG headers - << Content-Type: application/json; charset=utf-8
+2024-09-28 17:42:14 DEBUG headers - << Cache-Control: public, max-age=60, s-maxage=60
+2024-09-28 17:42:14 DEBUG headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+2024-09-28 17:42:14 DEBUG headers - << ETag: W/"621aaf04679570ac7ca2781e77352088d04c7978ee0b66e15a7d3cd88bb1dc2d"
+2024-09-28 17:42:14 DEBUG headers - << Last-Modified: Sat, 28 Sep 2024 08:19:52 GMT
+2024-09-28 17:42:14 DEBUG headers - << X-GitHub-Media-Type: github.v3; format=json
+2024-09-28 17:42:14 DEBUG headers - << x-github-api-version-selected: 2022-11-28
+2024-09-28 17:42:14 DEBUG headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+2024-09-28 17:42:14 DEBUG headers - << Access-Control-Allow-Origin: *
+2024-09-28 17:42:14 DEBUG headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+2024-09-28 17:42:14 DEBUG headers - << X-Frame-Options: deny
+2024-09-28 17:42:14 DEBUG headers - << X-Content-Type-Options: nosniff
+2024-09-28 17:42:14 DEBUG headers - << X-XSS-Protection: 0
+2024-09-28 17:42:14 DEBUG headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+2024-09-28 17:42:14 DEBUG headers - << Content-Security-Policy: default-src 'none'
+2024-09-28 17:42:14 DEBUG headers - << Content-Encoding: gzip
+2024-09-28 17:42:14 DEBUG headers - << Server: github.com
+2024-09-28 17:42:14 DEBUG headers - << X-RateLimit-Limit: 60
+2024-09-28 17:42:14 DEBUG headers - << X-RateLimit-Remaining: 59
+2024-09-28 17:42:14 DEBUG headers - << X-RateLimit-Reset: 1727538135
+2024-09-28 17:42:14 DEBUG headers - << X-RateLimit-Resource: core
+2024-09-28 17:42:14 DEBUG headers - << X-RateLimit-Used: 1
+2024-09-28 17:42:14 DEBUG headers - << Accept-Ranges: bytes
+2024-09-28 17:42:14 DEBUG headers - << Content-Length: 965
+2024-09-28 17:42:14 DEBUG headers - << X-GitHub-Request-Id: A205:16B44A:6225512:6394D30:66F815C7
+2024-09-28 17:42:14 DEBUG DefaultHttpClient - Connection can be kept alive indefinitely
+2024-09-28 17:42:14 DEBUG RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2024-09-28 17:42:14 DEBUG wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xad]V[0xef]o[0xdb]6[0x10][0xfd]W[0xe][0xca][0x97][0xcd][0xb0]-[0xcb]q[0x96]D@Q[0xb4]I[0x86][\r]CS [0xed][0xfa]am`S[0xd2]Y"B[0x91][0x2]I[0xd9][0xb5][0x8d][0xfc][0xef];R"
+2024-09-28 17:42:14 DEBUG wire -  << "[0xb2]';?[0xb6]%[0xfd]`[0x8][0xa0][0xef][0xbd][0xbb]{[0xef]x[0xd2]&[0xa8][0xb5][0x8][0xe2][0xa0][0xb0][0xb6]2q[0x18][0xb2][0x8a][0xf]sn[0x8b]:[0x19][0xa6][0xaa][0xc]5V[0xca][0x84][0xef][0x92][0xc][0x85].J&[0x7]WB[0xd0][0xbf][0xab][0xb0]y[0xf2][0xda][0x85][0x8]d[0x6]M[0x18][0x9d][0x9e]N[0xa2][0xd1][0xc9]I[0x14][0xf4][0x3]f[0xc]Z3[0xfd][0xf1][0xdc]a[0xc3]L)[0xea]J([0x96][0x1d][0xa4]h[0xe][0xcd][0xab][h[0xd3]l[0xde]JVb_[0xb0][0x4][0xc5]=[0xe5],l)[0xe]2v[0xc4][0xfa]o2Y[0x96][0xff][0xa3][0xde][0xe0][0xcb] [0x1a][0x8e][0x86][0xc7][0xc4][0xcd][0xb3] [0xde]IH[\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "[0xd6][0xb6]P:[0x88]7[0x81]P9[0x97]d[0xd1]C[0xfa]-jL[0xb2]O[0xc6][0xe7][0x93]~ U[0x86]S[0xc7][0x14][0xfc]9[0xbd][0xcb]/?[0xbe]_[0xa7]w_rg[0xc8][0x82]Y[0xa6][0xf][\r][0xf1][0x87][[0xb5]j[0x83]:U[0xd2][0xa2][0xb4][0xde][0xfb]:[0x8c][0xb6][0xc4]o[0x17]o&D[0x92][0xeb][0x96][0xc6]gp[0x1e]<7;[0x8e][0xef][0xb1][0xd9]y[0x81][0x8e][0x4][0x99]+![0xd4][0x92][0x18][0xf]{[0xd8][0x1f][0xd8][0xa7][0x92][0x86];[0xfc][0x8e][0x8b][0xcb][0xfc]U\[0x84][0xdf][0x84][0xca][0x16]H[0xb2]R[0xab]n>rn[0xfe]m[0xea][0x9f],[0xd0]c7[0xa1]{[0x90][0x83][0x8e][0xcd][0x90]9[0x1a][0xf]G[0xfc][0xe0][0x86]>[0xc9][0xd7][0xa2][0xa9][0xc4][0xa5][0xa4][0xea]6[0xfe].{[0xda]:1[0xa9][0xe6][0x95][0xe5]J[0xbe]T[0xcd]=[0xe][0xe2]T:g[0x92][0xaf][0xd9]k8[0x89][0xc3][0x10][0x95]_9/4[0xc6]c[0x89][0x3][0x17]4[0xc4]/%i[0xc0][0x9b][0xb0][0xd2]|[0xc1][0xd2][0x95][0x93]Lc[0x8a]|AV[0xbc][0x8a][0xf8][0x80][0x85]x[0xed][0xaa]BwWi|[0x9c]1[0xdc][0xe2][0x94]e[0xa5][0xbb][0xed]s&[0xc][0xde]w/[0xf4][0xcd][0xd5][0xf4]ny[0xf9][0xf1][0x83]]}Z[0xa7][0x93]?[0xee][0xbe][0xff][0xe6][0xb6][0x6]m[0x93][0xa9][0xdb]Q[0xc4][0xb2][[0xc9][0x9d][0xa5]B[0x13][0x94][0xa3][0x9d][0xd2]u.[0xb9][0xe5][0xa6][0xa0][0xb0][0x92][0x11]?[0x11]?[\r][0xca]4[0x9b][0xdb][0xb6][0x84]~PilW[0xfc][0xee]([0xd5][0xc8],[0xa9][0xc1](*[0x18][0x8f][0xc6][0x93][0xc1][0xe8]|0>[0xfd][0x1c][0xfd][0x12]G[0xc7][0xf1]$[0xfa][0x8b][0xf8][0xab]:[0x11][0x94][0xf0]A[0xd4][0xd9][0xe7][0xd1]Y[0x1c][0x9d][0xc7]'c[0x17][0xd5]n[0xf3][0xf8][0xeb][0xad]kE'L[0x1c][0xee][0xd7][0xff][0xff]Bjy[0x1e]][0xb2]k^[0xfd][0x90][0x1c]-[0xcf][0xa3]9[0x12][0x95][0xad]H[0x97][0xa3]#[0xb8]i^[0x8d]p[0xad],[0x1a][0x18][0xc0][0xd7][0x7][0x16][0xdd][0xba][0xd3][0x9d][0x82]g[0xb7][0xdf][0xf4]7[0xe9]~G[0x84][0xbe][0xc6]%[0xfc]JB[0xd7][0x1a]M[0xec][0xe][0xa3]![0xf4]z[0x17]J[0xce]y^k[0x96][0x8][0x84][0x9b]Z[0xc2][0x7]Z[0xf9]&[0xee][0xf5]\[0x4][0x0][0xf1][0xfd].[0xad]VY[0x9d]b[0x6][0xc]$[0x91][0xcc]t-][0xd4][0xc][0x94][0xbf][0xf4][0xc0]%[0xd0][0xda][0x2]Z[0xf6][\r][0x95]?[0x9c]s[0x81][0xc3][0x1d][0x89][0x1b]I[0x3])[0x93] [0xd5][0x12][0xd2]B)[0x83][0x90][0xa0]]"[0x12]x[0xa9][0xa0][0xf4]i[0xa1][0x5][0xb8][0xbc][0xbd][0xde][0xfb][0xcb]K_N[0xaf][0x7]?[0xcd][0x95][0x6][0xca]+iK[0xc2][0x92]>[0x19][0xe0][0xa2]N[0xeb]2A[0xfd]s[0x7][0x4]0[0x9b][0xcd]*[0xad]*[0xd4][0x96][0xa3][0xd9][0x91][0x81][0x83]:[0xa6]7D[0xd9]9[0xa5][0xe8][0xbd][0x84][0xd7]J[0xe][0x9e]K[0xaa]j[0xdb][0xc9][0xbb]O[0xf4]lZ"~4[0xb3][0xa3][0x18];[0x1b]>[0xa1][0xad]+[0xb8][0x10]n[0x80][\r][0xb8]f[0xaf]XZ[0xf8][0xee][0xbb]^[0xbc][0xcb]2[0xb2][0xc1][0xe9]E[0xdf]C[0x4]H[[0x80]-[0x98][0x5]S[0xa8]Zd[0xa4]*[0xe0]wz[0xeb][0xba][0xc8][0x84][0xbe][0xa4]2 7[0xbc]?[0x5][0x89].[0xbd][0xd2][0xde]rw_g[0xca][0x4]W[0x1e][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "s[0xad]J[0x98]Q[0xcd][0xbe][0xb0][0xd9][0xd6][0xc8]&[0xbe]+[0xd3][0x3]L[0xd3]j[0x7][0xe6]R[0x1d][0xfb]Q[0xa3]%[0xaa][0x99][0xe0]k*[0xa9][0x19];[0xf7][0xb0]Tl[0xd3][0xf8]^[0xa3]~[0xd2][0xd2][0xe][0xa2][0x99].7d[0x1e][0xe1];[0x7]K[0x83][0xc3]$[0xcb][0xf][0x86][0xaf]Q0[0xa1][0x97])8;[0x19]5[0xb4][0xad][0xd9][0xcf]Y[0x1f][0x8c][0xa5][0x9d]S[\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "[0xee][0xe7][0xc9][0x89][0xd3][0xe8]I&[0xa6]h[0xcc]0[0xb8][0xff][0x1b]}[0xd1][0xa5]=[0xc9][\n]"
+2024-09-28 17:42:14 DEBUG wire -  << "[0x0][0x0]"
+2024-09-28 17:42:14 DEBUG RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2024-09-28 17:42:15 DEBUG BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@525b1b70
+2024-09-28 17:42:15 DEBUG BasicClientConnectionManager - Connection can be kept alive indefinitely
+2024-09-28 17:42:15 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
+2024-09-28 17:42:15 INFO  logsUtils - [92mYou Are Using the Latest version of Ellithium Version: Ellithium-V-1.0.3
+2024-09-28 17:42:15 INFO  logsUtils - [94m----------------------------------------------[0m
+2024-09-28 17:42:15 INFO  logsUtils - [96m------- Ellithium  Engine Setup  -------------[0m
+2024-09-28 17:42:15 INFO  logsUtils - [94m----------------------------------------------[0m
+2024-09-28 17:42:15 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\allure[0m
+2024-09-28 17:42:15 INFO  logsUtils - [96m[ALL TESTS STARTED]: API TESTS [ALL TESTS STARTED][0m
+2024-09-28 17:42:15 INFO  logsUtils - [94m[START] TESTCASE getAllUsersRequest [STARTED][0m
+2024-09-28 17:42:15 DEBUG BasicClientConnectionManager - Get connection for route {s}->https://66e5adf25cc7f9b6273e0f96.mockapi.io:443
+2024-09-28 17:42:15 DEBUG DefaultClientConnectionOperator - Connecting to 66e5adf25cc7f9b6273e0f96.mockapi.io:443
+2024-09-28 17:42:16 DEBUG RequestAddCookies - CookieSpec selected: ignoreCookies
+2024-09-28 17:42:16 DEBUG RequestAuthCache - Auth cache not set in the context
+2024-09-28 17:42:16 DEBUG RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2024-09-28 17:42:16 DEBUG RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2024-09-28 17:42:16 DEBUG DefaultHttpClient - Attempt 1 to execute request
+2024-09-28 17:42:16 DEBUG DefaultClientConnection - Sending request: GET /Ellithium/api/users HTTP/1.1
+2024-09-28 17:42:16 DEBUG wire -  >> "GET /Ellithium/api/users HTTP/1.1[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  >> "Accept: */*[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  >> "Host: 66e5adf25cc7f9b6273e0f96.mockapi.io[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  >> "Connection: Keep-Alive[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21)[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  >> "[\r][\n]"
+2024-09-28 17:42:16 DEBUG headers - >> GET /Ellithium/api/users HTTP/1.1
+2024-09-28 17:42:16 DEBUG headers - >> Accept: */*
+2024-09-28 17:42:16 DEBUG headers - >> Host: 66e5adf25cc7f9b6273e0f96.mockapi.io
+2024-09-28 17:42:16 DEBUG headers - >> Connection: Keep-Alive
+2024-09-28 17:42:16 DEBUG headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21)
+2024-09-28 17:42:16 DEBUG headers - >> Accept-Encoding: gzip,deflate
+2024-09-28 17:42:16 DEBUG wire -  << "HTTP/1.1 200 OK[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  << "Server: Cowboy[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1727534537&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=s8SMHbwiEHMBfGCSWMdVGxqk2ChHC%2FJhQWkUpdrMBS4%3D"}]}[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1727534537&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=s8SMHbwiEHMBfGCSWMdVGxqk2ChHC%2FJhQWkUpdrMBS4%3D[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  << "Connection: keep-alive[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  << "X-Powered-By: Express[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  << "Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  << "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Cache-Control,access_token[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  << "Content-Type: application/json[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  << "Content-Length: 13876[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  << "Etag: "-1467168614"[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  << "Date: Sat, 28 Sep 2024 14:42:17 GMT[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  << "Via: 1.1 vegur[\r][\n]"
+2024-09-28 17:42:16 DEBUG wire -  << "[\r][\n]"
+2024-09-28 17:42:16 DEBUG DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+2024-09-28 17:42:16 DEBUG headers - << HTTP/1.1 200 OK
+2024-09-28 17:42:16 DEBUG headers - << Server: Cowboy
+2024-09-28 17:42:16 DEBUG headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1727534537&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=s8SMHbwiEHMBfGCSWMdVGxqk2ChHC%2FJhQWkUpdrMBS4%3D"}]}
+2024-09-28 17:42:16 DEBUG headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1727534537&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=s8SMHbwiEHMBfGCSWMdVGxqk2ChHC%2FJhQWkUpdrMBS4%3D
+2024-09-28 17:42:16 DEBUG headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+2024-09-28 17:42:16 DEBUG headers - << Connection: keep-alive
+2024-09-28 17:42:16 DEBUG headers - << X-Powered-By: Express
+2024-09-28 17:42:16 DEBUG headers - << Access-Control-Allow-Origin: *
+2024-09-28 17:42:16 DEBUG headers - << Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+2024-09-28 17:42:16 DEBUG headers - << Access-Control-Allow-Headers: X-Requested-With,Content-Type,Cache-Control,access_token
+2024-09-28 17:42:16 DEBUG headers - << Content-Type: application/json
+2024-09-28 17:42:16 DEBUG headers - << Content-Length: 13876
+2024-09-28 17:42:16 DEBUG headers - << Etag: "-1467168614"
+2024-09-28 17:42:16 DEBUG headers - << Date: Sat, 28 Sep 2024 14:42:17 GMT
+2024-09-28 17:42:16 DEBUG headers - << Via: 1.1 vegur
+2024-09-28 17:42:16 DEBUG DefaultHttpClient - Connection can be kept alive indefinitely
+2024-09-28 17:42:16 DEBUG RestAssuredHttpBuilder - Parsing response as: application/json
+2024-09-28 17:42:16 DEBUG RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2024-09-28 17:42:16 INFO  logsUtils - [94m[PASSED] TESTCASE getAllUsersRequest [PASSED][0m
+2024-09-28 17:42:16 DEBUG DefaultClientConnection - Connection 0.0.0.0:60406<->18.205.222.128:443 closed
+2024-09-28 17:42:16 INFO  logsUtils - [95m[ALL TESTS COMPLETED]: API TESTS [ALL TESTS COMPLETED][0m
+2024-09-28 17:42:16 INFO  logsUtils - [96m[ALL TESTS STARTED]: UI CHROME [ALL TESTS STARTED][0m
+2024-09-28 17:42:16 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
+2024-09-28 17:42:17 INFO  logsUtils - [96m[START] CHROME[94m Scenario Verify that user can search with partially product name [START]
+[0m
+2024-09-28 17:42:17 INFO  logsUtils - [92mChrome Options Configured[0m
+2024-09-28 17:42:21 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
+2024-09-28 17:42:21 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
+2024-09-28 17:42:21 INFO  logsUtils - [92mWebDriver Created[0m
+2024-09-28 17:42:24 INFO  logsUtils - [95mLevel: error[0m
+2024-09-28 17:42:24 INFO  logsUtils - [38;5;200mText: Failed to load resource: the server responded with a status of 400 ()[0m
+2024-09-28 17:42:24 INFO  logsUtils - [38;5;94mURL: Optional[https://www.noon.com/_svc/mp-identity-api/customer/get][0m
+2024-09-28 17:42:24 INFO  logsUtils - [93mStackTrace: Optional.empty[0m
+2024-09-28 17:42:24 INFO  logsUtils - [95mLevel: error[0m
+2024-09-28 17:42:24 INFO  logsUtils - [38;5;200mText: Failed to load resource: the server responded with a status of 404 ()[0m
+2024-09-28 17:42:24 INFO  logsUtils - [38;5;94mURL: Optional[https://www.noon.com/_svc/catalog/api/v3/u/account-loyalty][0m
+2024-09-28 17:42:24 INFO  logsUtils - [93mStackTrace: Optional.empty[0m
+2024-09-28 17:42:24 INFO  logsUtils - [95mLevel: error[0m
+2024-09-28 17:42:24 INFO  logsUtils - [38;5;200mText: Failed to load resource: the server responded with a status of 403 ()[0m
+2024-09-28 17:42:24 INFO  logsUtils - [38;5;94mURL: Optional[https://www.noon.com/_svc/customer-v1/customer/addresses][0m
+2024-09-28 17:42:24 INFO  logsUtils - [93mStackTrace: Optional.empty[0m
+2024-09-28 17:42:25 INFO  logsUtils - [95mLevel: error[0m
+2024-09-28 17:42:25 INFO  logsUtils - [38;5;200mText: Failed to load resource: the server responded with a status of 400 ()[0m
+2024-09-28 17:42:25 INFO  logsUtils - [38;5;94mURL: Optional[https://www.noon.com/_svc/smartassist/entry-points][0m
+2024-09-28 17:42:25 INFO  logsUtils - [93mStackTrace: Optional.empty[0m
+2024-09-28 17:42:35 INFO  logsUtils - [94mNavigated To URL: https://www.noon.com/egypt-en/[0m
+2024-09-28 17:42:35 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
+2024-09-28 17:42:35 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
+2024-09-28 17:42:35 INFO  logsUtils - [94mSending Data "lapt" To Element: By.id: searchBar[0m
+2024-09-28 17:42:35 INFO  logsUtils - [94mSending Data "ENTER" To Element: By.id: searchBar[0m
+2024-09-28 17:42:35 INFO  logsUtils - [94mSending Data "ENTER" To Element: By.id: searchBar[0m
+2024-09-28 17:42:35 INFO  logsUtils - [94mWaiting for Element To Disappear: By.xpath: //img[@alt='Loading' and @loading='lazy'][0m
+2024-09-28 17:42:36 INFO  logsUtils - [94mGetting Attribute from multiple elements located: By.cssSelector: div[data-qa='product-name'][0m
+2024-09-28 17:42:37 INFO  logsUtils - [94mGetting Timestamp: 2024-09-28-5-42-37PM[0m
+2024-09-28 17:42:37 INFO  logsUtils - [91m CHROME[FAILED] Scenario Verify that user can search with partially product name [FAILED][0m
+2024-09-28 17:42:37 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
+2024-09-28 17:42:37 INFO  logsUtils - [95m[ALL TESTS COMPLETED]: UI CHROME [ALL TESTS COMPLETED][0m
+2024-09-28 17:42:37 TRACE Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6d6bc158] 685419049
+2024-09-28 17:42:37 TRACE Graph - [Graph] ================ SORTING
+2024-09-28 17:42:37 TRACE Graph - [Graph] =============== DONE SORTING
+2024-09-28 17:42:37 TRACE Graph - [Graph] ====== SORTED NODES
+2024-09-28 17:42:37 TRACE Graph - [Graph] ====== END SORTED NODES
+2024-09-28 17:42:37 INFO  logsUtils - [94m-------------------------------------------[0m
+2024-09-28 17:42:37 INFO  logsUtils - [96m------- Ellithium  Engine TearDown  -------[0m
+2024-09-28 17:42:37 INFO  logsUtils - [94m-------------------------------------------[0m
+2024-09-28 17:42:37 INFO  logsUtils - [96m
+Total Execution Time is: 0 Min 21 Sec 975 Mills
+[0m
+2024-09-28 17:42:37 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\log4j2[0m
+2024-09-28 17:42:37 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\log4j2[0m
+2024-09-28 17:42:37 INFO  logsUtils - Log file successfully attached to the Allure report.
+2024-09-28 17:42:37 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\allure[0m
+2024-09-28 17:42:37 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\allure[0m
+2024-09-28 17:42:37 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\allure[0m
+2024-09-28 17:42:37 INFO  logsUtils - [92mAllure folder exists at: C:\Users\lenovo\.m2\repository\allure-Ellithium[0m
+2024-09-28 17:42:37 INFO  logsUtils - [92mFound Allure binary directory: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin[0m
+2024-09-28 17:42:37 ERROR AllureLifecycle - Could not start step: no test case running
+2024-09-28 17:42:37 ERROR AllureLifecycle - Could not stop step: step with uuid 4c517c00-4273-48fa-9110-915c566399df not found
+2024-09-28 17:42:44 INFO  logsUtils - [92mCommand exited with code: 0[0m
+2024-09-28 17:42:44 ERROR AllureLifecycle - Could not start step: no test case running
+2024-09-28 17:42:44 ERROR AllureLifecycle - Could not stop step: step with uuid f6c29463-c01d-4edd-9694-460201a22b42 not found
+2024-09-28 17:42:44 INFO  logsUtils - [94mGetting Timestamp: 2024-09-28-5-42-44PM[0m
+2024-09-28 17:42:44 ERROR AllureLifecycle - Could not start step: no test case running
+2024-09-28 17:42:44 ERROR AllureLifecycle - Could not stop step: step with uuid 2f4e18c4-2f48-4a5b-93e0-4f3fbaba62d4 not found
+2024-09-28 17:42:44 ERROR AllureLifecycle - Could not start step: no test case running
+2024-09-28 17:42:44 ERROR AllureLifecycle - Could not stop step: step with uuid 63a228eb-6c58-4c73-b9b6-1334d5bf74f9 not found
+2024-09-28 17:42:44 INFO  logsUtils - [92mCommand exited with code: 0[0m
+2024-09-28 17:42:44 ERROR AllureLifecycle - Could not start step: no test case running
+2024-09-28 17:42:44 ERROR AllureLifecycle - Could not stop step: step with uuid 6b5fd18a-4572-4c11-b890-6b9636e820c2 not found

@@ -1,23 +1,26 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
+# Maven build output
+target/*
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+# Test output directories
+TestNGRunner.xml
+Test-Output/Reports/
+Test-Output/Logs/
+Test-Output/ScreenShots/
+
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
+.idea/
 *.iml
 *.ipr
+*.iws
 
 ### Eclipse ###
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
 

@@ -11,7 +11,7 @@ Feature: Search
     When they click the Search button or press Enter key
     Then the search results page should display items matching the search query
 
-    Scenario: Verify Search result updated according to the applied filter
+  Scenario: Verify Search result updated according to the applied filter
       Given The search results are displayed
       When the user applies filters (eg brand)
       Then the search results should be filtered accordingly
@@ -26,12 +26,12 @@ Feature: Search
       When no items match the search query
       Then a "No Results Found" message should be displayed
 
-  Scenario: Verify that user can search with product Company  name
+  Scenario: Verify that user can search with product Company name
       Given the user enters Company  name in the search field
       When they click the Search button or press Enter key
       Then company products should be displayed
 
-  Scenario: Verify that user can search with partially product  name
+  Scenario: Verify that user can search with partially product name
       Given the user enters product name partially in the search field
       When they click the Search button or press Enter key
       Then products relevant to that name should be displayed

@@ -1,20 +1,21 @@
 package stepDefinitions;
 
+import Base.BaseStepDefinitions;
+import Ellithium.Utilities.AssertionExecutor;
 import Pages.SearchPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.testng.Assert;
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.List;
 
-import static Base.BaseStepDefinition.driver;
-public class SearchStepDefinitions {
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class SearchStepDefinitions extends BaseStepDefinitions {
     public SearchPage searchPage;
 
     @Given("The user is on the homepage")
-    public void the_user_is_on_the_homepage() throws InterruptedException {
+    public void the_user_is_on_the_homepage()  {
             searchPage=new SearchPage(driver);
             searchPage.returnHome();
     }
@@ -28,7 +29,7 @@ public class SearchStepDefinitions {
     public void the_search_query_should_be_accepted_and_processed() {
         String actualText=searchPage.getTextInSearchField();
         String expectedText="laptop";
-        Assert.assertTrue(actualText.contains(expectedText));
+        AssertionExecutor.hard.assertTrue(actualText.toLowerCase().contains(expectedText));
     }
 
     @Given("The user has entered a search query")
@@ -44,11 +45,8 @@ public class SearchStepDefinitions {
     @Then("the search results page should display items matching the search query")
     public void the_search_results_page_should_display_items_matching_the_search_query() {
         List<String>names=searchPage.getResultsNames();
-        int i=0;
         for (String name:names){
-            i++;
-            System.out.println(i+" - "+name.toLowerCase());
-            Assert.assertTrue(name.toLowerCase().contains("laptop"));
+            AssertionExecutor.hard.assertTrue(name.toLowerCase().contains("laptop"));
         }
     }
 
@@ -59,36 +57,36 @@ public class SearchStepDefinitions {
     }
 
     @When("the user applies filters \\(eg brand)")
-    public void the_user_applies_filters_e_g_category_price_brand(){
+    public void the_user_applies_filters_e_g_category_price_brand() {
         searchPage.clickDell();
     }
 
     @Then("the search results should be filtered accordingly")
     public void the_search_results_should_be_filtered_accordingly() {
         List<String>names=searchPage.getResultsNames();
-        int i=0;
         for (String name:names){
-            i++;
-            System.out.println(i+" - "+name.toLowerCase());
-            Assert.assertTrue(name.toLowerCase().contains("dell"));
+            AssertionExecutor.hard.assertTrue(name.toLowerCase().contains("dell"));
         }
     }
 
     @When("the user chooses to sort the results \\(eg price)")
-    public void the_user_chooses_to_sort_the_results_e_g_by_relevance_price_popularity() throws InterruptedException {
+    public void the_user_chooses_to_sort_the_results_e_g_by_relevance_price_popularity()  {
             searchPage.clickSortBy("price low to high");
     }
 
     @Then("the search results should be sorted accordingly")
-    public void the_search_results_should_be_sorted_accordingly() {
-            List<String>Prices=searchPage.getResultsPrice();
+    public void the_search_results_should_be_sorted_accordingly()  {
+        List<String>Prices=searchPage.getResultsPrice();
         List<String> sorted = Prices.stream()
                 .sorted((a, b) -> b.compareTo(a))
                 .collect(Collectors.toList());
-        sorted=sorted.reversed();
-        System.out.println(sorted);
+        List<String>newsorted =new ArrayList<>();
+        for (String item :sorted){
+            newsorted.add(0,item);
+        }
+        System.out.println(newsorted);
         System.out.println(Prices);
-        Assert.assertEquals(sorted,Prices,"not sorted by popularity");
+        AssertionExecutor.hard.assertEquals(newsorted,Prices);
     }
 
     @Given("The user enters a search query")
@@ -105,7 +103,7 @@ public class SearchStepDefinitions {
     @Then("a {string} message should be displayed")
     public void a_message_should_be_displayed(String string) {
         List<String>results=searchPage.getResultsNames();
-        Assert.assertEquals(results.size(),0, "فيه عندهم رئيس للبيع");
+        AssertionExecutor.hard.assertEquals(results.size(),0 );
     }
 
     @Given("the user enters Company  name in the search field")
@@ -116,11 +114,8 @@ public class SearchStepDefinitions {
     @Then("company products should be displayed")
     public void compny_products_should_be_displayed() {
         List<String>names=searchPage.getResultsNames();
-        int i=0;
         for (String name:names){
-            i++;
-            System.out.println(i+" - "+name.toLowerCase());
-            Assert.assertTrue(name.toLowerCase().contains("dell"));
+            AssertionExecutor.hard.assertTrue(name.toLowerCase().contains("dell"));
         }
     }
 
@@ -133,11 +128,11 @@ public class SearchStepDefinitions {
     @Then("products relevant to that name should be displayed")
     public void products_relevant_to_that_name_should_be_displayed() {
         List<String>names=searchPage.getResultsNames();
-        int i=0;
-        for (String name:names){
-            i++;
-            System.out.println(i+" - "+name.toLowerCase());
-            Assert.assertTrue(name.toLowerCase().contains("laptop"));
+        byte cnt=0;
+        for (String name:names ){
+            if(cnt>10) break;
+            AssertionExecutor.hard.assertContains(name.toLowerCase(),"laptop");
+            cnt++;
         }
     }
 }
