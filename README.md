@@ -1,14 +1,10 @@
-Here’s a README file for your **Ellithium-Demo-Project**, incorporating the provided class information and project structure:
-
----
-
-# Ellithium-Demo-Project
+# Noon-Shopping-Website-Manual-Automation
 
 Demo project using the **Ellithium Framework** for running both BDD and Non-BDD tests with Selenium WebDriver and Cucumber.
 
 ## Project Overview
 
-This project demonstrates how to use the **Ellithium Framework** to implement UI tests with a focus on search functionality. The project is designed to showcase key features such as:
+This project demonstrates how to use the **Ellithium Framework** to implement UI tests with a focus on search functionality. The project automates the **Search Feature** and is designed to showcase key features such as:
 - Running tests in **BDD Mode** using Cucumber.
 - Writing and executing test scenarios using a Page Object Model (POM) design pattern.
 - Utilizing utility classes provided by Ellithium for common Selenium actions like assertions, navigating pages, and interacting with web elements.
@@ -17,11 +13,12 @@ This project demonstrates how to use the **Ellithium Framework** to implement UI
 - **Search Feature Tests**: Automated tests for various search-related scenarios, including filtering, sorting, and validation of results.
 - **Configurable Setup**: Choose between BDD and Non-BDD modes in the config file to switch between testing styles.
 - **Utilities**: Provided utilities like `DriverActions` and `AssertionExecutor` simplify writing efficient, maintainable tests.
+- **Manual Testing**: There are up to 68 manual test cases covering the **Search** and **Checkout** features.
 
 ## Project Structure
 
 ```text
-Ellithium-Demo-Project
+Noon-Shopping-Website-Manual-Automation
 ├── src
 │   ├── main
 │   │   ├── java
@@ -53,25 +50,25 @@ Ellithium-Demo-Project
 │   ├── Reports
 │   │   ├── Allure
 │   │   │   ├── allure-report
-│   │   │   │   └── Ellithium-Test-Report-2024-09-28-10-55-48AM.html
+│   │   │   │   └── Ellithium-Test-Report-2024-09-28-5-42-44PM.html
 │   │   │   ├── allure-results
-
 │   │   ├── Cucumber
 │   │   │   └── cucumber.html
 │   │   │   └── cucumber.json
 │   ├── ScreenShots
 │   │   ├── Failed
-│   │   │   └── CHROME-Verify that user can search with partially product name-2024-09-28-1-40-02PM.png
-│   │   │   └── CHROME-Verify that user can search with partially product name-2024-09-28-10-55-45AM.png
+│   │   │   └── CHROME-Verify that user can search with partially product name-2024-09-28-5-42-37PM.png
 ├── .idea
 │   └── compiler.xml
 │   └── encodings.xml
 │   └── jarRepositories.xml
 │   └── misc.xml
+│   └── uiDesigner.xml
 │   └── vcs.xml
 │   └── workspace.xml
 └── TestNGRunner.xml
 └── pom.xml
+└── Manual-Test-Cases-.xlsx
 └── README.md
 ```
 
@@ -122,8 +119,27 @@ Feature: Search
     When they click the Search button or press Enter key
     Then the search results page should display items matching the search query
 
-  @Run
-  Scenario: Verify user can search with partially typed product name
+  Scenario: Verify Search result updated according to the applied filter
+    Given The search results are displayed
+    When the user applies filters (e.g., brand)
+    Then the search results should be filtered accordingly
+
+  Scenario: Verify Search result updated according to the applied sorting method
+    Given The search results are displayed
+    When the user chooses to sort the results (e.g., price)
+    Then the search results should be sorted accordingly
+
+  Scenario: Verify that the "No Results Found" message is displayed when there are no matching items
+    Given The user enters a search query
+    When no items match the search query
+    Then a "No Results Found" message should be displayed
+
+  Scenario: Verify that user can search with product Company name
+    Given the user enters Company name in the search field
+    When they click the Search button or press Enter key
+    Then company products should be displayed
+
+  Scenario: Verify that user can search with partially typed product name
     Given the user enters product name partially in the search field
     When they click the Search button or press Enter key
     Then products relevant to that name should be displayed
@@ -140,11 +156,11 @@ Feature: Search
 - Ensure all required dependencies are set up in `pom.xml`.
 - To run the tests in **BDD Mode**, simply execute the `TestRunner` class located in the `Runner` package.
   
-For reports, Allure can be used to visualize test results:
-```bash
-allure serve Test-Output/Reports/Allure/allure-report
+For reports, you can open:
+```ext
+├── Test-Output
+│   ├── Reports
+│   │   ├── Allure
 ```
 
 ---
-
-This README file provides a clear structure, guiding the user through the purpose and setup of the demo project with Ellithium. Let me know if you need further customization!
