@@ -1,7 +1,7 @@
 package stepDefinitions;
 
 import Base.BaseStepDefinitions;
-import Ellithium.Utilities.AssertionExecutor;
+import Ellithium.Utilities.assertion.AssertionExecutor;
 import Pages.SearchPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -114,9 +114,11 @@ public class SearchStepDefinitions extends BaseStepDefinitions {
     @Then("company products should be displayed")
     public void compny_products_should_be_displayed() {
         List<String>names=searchPage.getResultsNames();
+        var softAssert=new AssertionExecutor.soft();
         for (String name:names){
-            AssertionExecutor.hard.assertTrue(name.toLowerCase().contains("dell"));
+           softAssert.assertTrue(name.toLowerCase().contains("dell"));
         }
+        softAssert.assertAll();
     }
 
     @Given("the user enters product name partially in the search field")
@@ -128,11 +130,13 @@ public class SearchStepDefinitions extends BaseStepDefinitions {
     @Then("products relevant to that name should be displayed")
     public void products_relevant_to_that_name_should_be_displayed() {
         List<String>names=searchPage.getResultsNames();
+        var softAssert=new AssertionExecutor.soft();
         byte cnt=0;
         for (String name:names ){
             if(cnt>10) break;
-            AssertionExecutor.hard.assertContains(name.toLowerCase(),"laptop");
+            softAssert.assertContains(name.toLowerCase(),"laptop");
             cnt++;
         }
+        softAssert.assertAll();
     }
 }

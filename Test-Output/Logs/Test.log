@@ -1,254 +1,143 @@
-2024-09-28 17:42:12 DEBUG TestNG - suiteXmlPath: "C:\Users\lenovo\IdeaProjects\Noon-Shopping-Website-Manual-Automation-\TestNGRunner.xml"
-2024-09-28 17:42:12 TRACE Graph - [Graph] ADDING NODE MyEndPointTests.getAllUsersRequest()[pri:0, instance:APITests.MyEndPointTests@4940809c] 125270738
-2024-09-28 17:42:12 TRACE Graph - [Graph] ================ SORTING
-2024-09-28 17:42:12 TRACE Graph - [Graph] =============== DONE SORTING
-2024-09-28 17:42:12 TRACE Graph - [Graph] ====== SORTED NODES
-2024-09-28 17:42:12 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-09-28 17:42:12 TRACE Graph - [Graph] ADDING NODE BDDSetup.BrowserConfig(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:null] 136420242
-2024-09-28 17:42:12 TRACE Graph - [Graph] ================ SORTING
-2024-09-28 17:42:12 TRACE Graph - [Graph] =============== DONE SORTING
-2024-09-28 17:42:12 TRACE Graph - [Graph] ====== SORTED NODES
-2024-09-28 17:42:12 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-09-28 17:42:12 TRACE Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
-2024-09-28 17:42:12 TRACE Graph - [Graph] ================ SORTING
-2024-09-28 17:42:12 TRACE Graph - [Graph] =============== DONE SORTING
-2024-09-28 17:42:12 TRACE Graph - [Graph] ====== SORTED NODES
-2024-09-28 17:42:12 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-09-28 17:42:12 TRACE Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
-2024-09-28 17:42:12 TRACE Graph - [Graph] ================ SORTING
-2024-09-28 17:42:12 TRACE Graph - [Graph] =============== DONE SORTING
-2024-09-28 17:42:12 TRACE Graph - [Graph] ====== SORTED NODES
-2024-09-28 17:42:12 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-09-28 17:42:12 TRACE Graph - [Graph] ADDING NODE BDDSetup.BrowserConfig(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Runner.TestRunner@6d6bc158] 1769838598
-2024-09-28 17:42:12 TRACE Graph - [Graph] ================ SORTING
-2024-09-28 17:42:12 TRACE Graph - [Graph] =============== DONE SORTING
-2024-09-28 17:42:12 TRACE Graph - [Graph] ====== SORTED NODES
-2024-09-28 17:42:12 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-09-28 17:42:12 TRACE Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6d6bc158] 685419049
-2024-09-28 17:42:12 TRACE Graph - [Graph] ================ SORTING
-2024-09-28 17:42:12 TRACE Graph - [Graph] =============== DONE SORTING
-2024-09-28 17:42:12 TRACE Graph - [Graph] ====== SORTED NODES
-2024-09-28 17:42:12 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-09-28 17:42:13 DEBUG BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
-2024-09-28 17:42:14 DEBUG DefaultClientConnectionOperator - Connecting to api.github.com:443
-2024-09-28 17:42:14 DEBUG RequestAddCookies - CookieSpec selected: ignoreCookies
-2024-09-28 17:42:14 DEBUG RequestAuthCache - Auth cache not set in the context
-2024-09-28 17:42:14 DEBUG RequestTargetAuthentication - Target auth state: UNCHALLENGED
-2024-09-28 17:42:14 DEBUG RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
-2024-09-28 17:42:14 DEBUG DefaultHttpClient - Attempt 1 to execute request
-2024-09-28 17:42:14 DEBUG DefaultClientConnection - Sending request: GET /repos/Abdelrhman-Ellithy/Ellithium/releases/latest HTTP/1.1
-2024-09-28 17:42:14 DEBUG wire -  >> "GET /repos/Abdelrhman-Ellithy/Ellithium/releases/latest HTTP/1.1[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  >> "Accept: */*[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  >> "Host: api.github.com[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  >> "Connection: Keep-Alive[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21)[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  >> "[\r][\n]"
-2024-09-28 17:42:14 DEBUG headers - >> GET /repos/Abdelrhman-Ellithy/Ellithium/releases/latest HTTP/1.1
-2024-09-28 17:42:14 DEBUG headers - >> Accept: */*
-2024-09-28 17:42:14 DEBUG headers - >> Host: api.github.com
-2024-09-28 17:42:14 DEBUG headers - >> Connection: Keep-Alive
-2024-09-28 17:42:14 DEBUG headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21)
-2024-09-28 17:42:14 DEBUG headers - >> Accept-Encoding: gzip,deflate
-2024-09-28 17:42:14 DEBUG wire -  << "HTTP/1.1 200 OK[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "Date: Sat, 28 Sep 2024 14:42:15 GMT[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "ETag: W/"621aaf04679570ac7ca2781e77352088d04c7978ee0b66e15a7d3cd88bb1dc2d"[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "Last-Modified: Sat, 28 Sep 2024 08:19:52 GMT[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "X-Frame-Options: deny[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "X-XSS-Protection: 0[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "Content-Encoding: gzip[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "Server: github.com[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "X-RateLimit-Limit: 60[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "X-RateLimit-Remaining: 59[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "X-RateLimit-Reset: 1727538135[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "X-RateLimit-Resource: core[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "X-RateLimit-Used: 1[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "Accept-Ranges: bytes[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "Content-Length: 965[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "X-GitHub-Request-Id: A205:16B44A:6225512:6394D30:66F815C7[\r][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "[\r][\n]"
-2024-09-28 17:42:14 DEBUG DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
-2024-09-28 17:42:14 DEBUG headers - << HTTP/1.1 200 OK
-2024-09-28 17:42:14 DEBUG headers - << Date: Sat, 28 Sep 2024 14:42:15 GMT
-2024-09-28 17:42:14 DEBUG headers - << Content-Type: application/json; charset=utf-8
-2024-09-28 17:42:14 DEBUG headers - << Cache-Control: public, max-age=60, s-maxage=60
-2024-09-28 17:42:14 DEBUG headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
-2024-09-28 17:42:14 DEBUG headers - << ETag: W/"621aaf04679570ac7ca2781e77352088d04c7978ee0b66e15a7d3cd88bb1dc2d"
-2024-09-28 17:42:14 DEBUG headers - << Last-Modified: Sat, 28 Sep 2024 08:19:52 GMT
-2024-09-28 17:42:14 DEBUG headers - << X-GitHub-Media-Type: github.v3; format=json
-2024-09-28 17:42:14 DEBUG headers - << x-github-api-version-selected: 2022-11-28
-2024-09-28 17:42:14 DEBUG headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
-2024-09-28 17:42:14 DEBUG headers - << Access-Control-Allow-Origin: *
-2024-09-28 17:42:14 DEBUG headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
-2024-09-28 17:42:14 DEBUG headers - << X-Frame-Options: deny
-2024-09-28 17:42:14 DEBUG headers - << X-Content-Type-Options: nosniff
-2024-09-28 17:42:14 DEBUG headers - << X-XSS-Protection: 0
-2024-09-28 17:42:14 DEBUG headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
-2024-09-28 17:42:14 DEBUG headers - << Content-Security-Policy: default-src 'none'
-2024-09-28 17:42:14 DEBUG headers - << Content-Encoding: gzip
-2024-09-28 17:42:14 DEBUG headers - << Server: github.com
-2024-09-28 17:42:14 DEBUG headers - << X-RateLimit-Limit: 60
-2024-09-28 17:42:14 DEBUG headers - << X-RateLimit-Remaining: 59
-2024-09-28 17:42:14 DEBUG headers - << X-RateLimit-Reset: 1727538135
-2024-09-28 17:42:14 DEBUG headers - << X-RateLimit-Resource: core
-2024-09-28 17:42:14 DEBUG headers - << X-RateLimit-Used: 1
-2024-09-28 17:42:14 DEBUG headers - << Accept-Ranges: bytes
-2024-09-28 17:42:14 DEBUG headers - << Content-Length: 965
-2024-09-28 17:42:14 DEBUG headers - << X-GitHub-Request-Id: A205:16B44A:6225512:6394D30:66F815C7
-2024-09-28 17:42:14 DEBUG DefaultHttpClient - Connection can be kept alive indefinitely
-2024-09-28 17:42:14 DEBUG RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
-2024-09-28 17:42:14 DEBUG wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xad]V[0xef]o[0xdb]6[0x10][0xfd]W[0xe][0xca][0x97][0xcd][0xb0]-[0xcb]q[0x96]D@Q[0xb4]I[0x86][\r]CS [0xed][0xfa]am`S[0xd2]Y"B[0x91][0x2]I[0xd9][0xb5][0x8d][0xfc][0xef];R"
-2024-09-28 17:42:14 DEBUG wire -  << "[0xb2]';?[0xb6]%[0xfd]`[0x8][0xa0][0xef][0xbd][0xbb]{[0xef]x[0xd2]&[0xa8][0xb5][0x8][0xe2][0xa0][0xb0][0xb6]2q[0x18][0xb2][0x8a][0xf]sn[0x8b]:[0x19][0xa6][0xaa][0xc]5V[0xca][0x84][0xef][0x92][0xc][0x85].J&[0x7]WB[0xd0][0xbf][0xab][0xb0]y[0xf2][0xda][0x85][0x8]d[0x6]M[0x18][0x9d][0x9e]N[0xa2][0xd1][0xc9]I[0x14][0xf4][0x3]f[0xc]Z3[0xfd][0xf1][0xdc]a[0xc3]L)[0xea]J([0x96][0x1d][0xa4]h[0xe][0xcd][0xab][h[0xd3]l[0xde]JVb_[0xb0][0x4][0xc5]=[0xe5],l)[0xe]2v[0xc4][0xfa]o2Y[0x96][0xff][0xa3][0xde][0xe0][0xcb] [0x1a][0x8e][0x86][0xc7][0xc4][0xcd][0xb3] [0xde]IH[\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "[0xd6][0xb6]P:[0x88]7[0x81]P9[0x97]d[0xd1]C[0xfa]-jL[0xb2]O[0xc6][0xe7][0x93]~ U[0x86]S[0xc7][0x14][0xfc]9[0xbd][0xcb]/?[0xbe]_[0xa7]w_rg[0xc8][0x82]Y[0xa6][0xf][\r][0xf1][0x87][[0xb5]j[0x83]:U[0xd2][0xa2][0xb4][0xde][0xfb]:[0x8c][0xb6][0xc4]o[0x17]o&D[0x92][0xeb][0x96][0xc6]gp[0x1e]<7;[0x8e][0xef][0xb1][0xd9]y[0x81][0x8e][0x4][0x99]+![0xd4][0x92][0x18][0xf]{[0xd8][0x1f][0xd8][0xa7][0x92][0x86];[0xfc][0x8e][0x8b][0xcb][0xfc]U\[0x84][0xdf][0x84][0xca][0x16]H[0xb2]R[0xab]n>rn[0xfe]m[0xea][0x9f],[0xd0]c7[0xa1]{[0x90][0x83][0x8e][0xcd][0x90]9[0x1a][0xf]G[0xfc][0xe0][0x86]>[0xc9][0xd7][0xa2][0xa9][0xc4][0xa5][0xa4][0xea]6[0xfe].{[0xda]:1[0xa9][0xe6][0x95][0xe5]J[0xbe]T[0xcd]=[0xe][0xe2]T:g[0x92][0xaf][0xd9]k8[0x89][0xc3][0x10][0x95]_9/4[0xc6]c[0x89][0x3][0x17]4[0xc4]/%i[0xc0][0x9b][0xb0][0xd2]|[0xc1][0xd2][0x95][0x93]Lc[0x8a]|AV[0xbc][0x8a][0xf8][0x80][0x85]x[0xed][0xaa]BwWi|[0x9c]1[0xdc][0xe2][0x94]e[0xa5][0xbb][0xed]s&[0xc][0xde]w/[0xf4][0xcd][0xd5][0xf4]ny[0xf9][0xf1][0x83]]}Z[0xa7][0x93]?[0xee][0xbe][0xff][0xe6][0xb6][0x6]m[0x93][0xa9][0xdb]Q[0xc4][0xb2][[0xc9][0x9d][0xa5]B[0x13][0x94][0xa3][0x9d][0xd2]u.[0xb9][0xe5][0xa6][0xa0][0xb0][0x92][0x11]?[0x11]?[\r][0xca]4[0x9b][0xdb][0xb6][0x84]~PilW[0xfc][0xee]([0xd5][0xc8],[0xa9][0xc1](*[0x18][0x8f][0xc6][0x93][0xc1][0xe8]|0>[0xfd][0x1c][0xfd][0x12]G[0xc7][0xf1]$[0xfa][0x8b][0xf8][0xab]:[0x11][0x94][0xf0]A[0xd4][0xd9][0xe7][0xd1]Y[0x1c][0x9d][0xc7]'c[0x17][0xd5]n[0xf3][0xf8][0xeb][0xad]kE'L[0x1c][0xee][0xd7][0xff][0xff]Bjy[0x1e]][0xb2]k^[0xfd][0x90][0x1c]-[0xcf][0xa3]9[0x12][0x95][0xad]H[0x97][0xa3]#[0xb8]i^[0x8d]p[0xad],[0x1a][0x18][0xc0][0xd7][0x7][0x16][0xdd][0xba][0xd3][0x9d][0x82]g[0xb7][0xdf][0xf4]7[0xe9]~G[0x84][0xbe][0xc6]%[0xfc]JB[0xd7][0x1a]M[0xec][0xe][0xa3]![0xf4]z[0x17]J[0xce]y^k[0x96][0x8][0x84][0x9b]Z[0xc2][0x7]Z[0xf9]&[0xee][0xf5]\[0x4][0x0][0xf1][0xfd].[0xad]VY[0x9d]b[0x6][0xc]$[0x91][0xcc]t-][0xd4][0xc][0x94][0xbf][0xf4][0xc0]%[0xd0][0xda][0x2]Z[0xf6][\r][0x95]?[0x9c]s[0x81][0xc3][0x1d][0x89][0x1b]I[0x3])[0x93] [0xd5][0x12][0xd2]B)[0x83][0x90][0xa0]]"[0x12]x[0xa9][0xa0][0xf4]i[0xa1][0x5][0xb8][0xbc][0xbd][0xde][0xfb][0xcb]K_N[0xaf][0x7]?[0xcd][0x95][0x6][0xca]+iK[0xc2][0x92]>[0x19][0xe0][0xa2]N[0xeb]2A[0xfd]s[0x7][0x4]0[0x9b][0xcd]*[0xad]*[0xd4][0x96][0xa3][0xd9][0x91][0x81][0x83]:[0xa6]7D[0xd9]9[0xa5][0xe8][0xbd][0x84][0xd7]J[0xe][0x9e]K[0xaa]j[0xdb][0xc9][0xbb]O[0xf4]lZ"~4[0xb3][0xa3][0x18];[0x1b]>[0xa1][0xad]+[0xb8][0x10]n[0x80][\r][0xb8]f[0xaf]XZ[0xf8][0xee][0xbb]^[0xbc][0xcb]2[0xb2][0xc1][0xe9]E[0xdf]C[0x4]H[[0x80]-[0x98][0x5]S[0xa8]Zd[0xa4]*[0xe0]wz[0xeb][0xba][0xc8][0x84][0xbe][0xa4]2 7[0xbc]?[0x5][0x89].[0xbd][0xd2][0xde]rw_g[0xca][0x4]W[0x1e][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "s[0xad]J[0x98]Q[0xcd][0xbe][0xb0][0xd9][0xd6][0xc8]&[0xbe]+[0xd3][0x3]L[0xd3]j[0x7][0xe6]R[0x1d][0xfb]Q[0xa3]%[0xaa][0x99][0xe0]k*[0xa9][0x19];[0xf7][0xb0]Tl[0xd3][0xf8]^[0xa3]~[0xd2][0xd2][0xe][0xa2][0x99].7d[0x1e][0xe1];[0x7]K[0x83][0xc3]$[0xcb][0xf][0x86][0xaf]Q0[0xa1][0x97])8;[0x19]5[0xb4][0xad][0xd9][0xcf]Y[0x1f][0x8c][0xa5][0x9d]S[\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "[0xee][0xe7][0xc9][0x89][0xd3][0xe8]I&[0xa6]h[0xcc]0[0xb8][0xff][0x1b]}[0xd1][0xa5]=[0xc9][\n]"
-2024-09-28 17:42:14 DEBUG wire -  << "[0x0][0x0]"
-2024-09-28 17:42:14 DEBUG RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-2024-09-28 17:42:15 DEBUG BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@525b1b70
-2024-09-28 17:42:15 DEBUG BasicClientConnectionManager - Connection can be kept alive indefinitely
-2024-09-28 17:42:15 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
-2024-09-28 17:42:15 INFO  logsUtils - [92mYou Are Using the Latest version of Ellithium Version: Ellithium-V-1.0.3
-2024-09-28 17:42:15 INFO  logsUtils - [94m----------------------------------------------[0m
-2024-09-28 17:42:15 INFO  logsUtils - [96m------- Ellithium  Engine Setup  -------------[0m
-2024-09-28 17:42:15 INFO  logsUtils - [94m----------------------------------------------[0m
-2024-09-28 17:42:15 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\allure[0m
-2024-09-28 17:42:15 INFO  logsUtils - [96m[ALL TESTS STARTED]: API TESTS [ALL TESTS STARTED][0m
-2024-09-28 17:42:15 INFO  logsUtils - [94m[START] TESTCASE getAllUsersRequest [STARTED][0m
-2024-09-28 17:42:15 DEBUG BasicClientConnectionManager - Get connection for route {s}->https://66e5adf25cc7f9b6273e0f96.mockapi.io:443
-2024-09-28 17:42:15 DEBUG DefaultClientConnectionOperator - Connecting to 66e5adf25cc7f9b6273e0f96.mockapi.io:443
-2024-09-28 17:42:16 DEBUG RequestAddCookies - CookieSpec selected: ignoreCookies
-2024-09-28 17:42:16 DEBUG RequestAuthCache - Auth cache not set in the context
-2024-09-28 17:42:16 DEBUG RequestTargetAuthentication - Target auth state: UNCHALLENGED
-2024-09-28 17:42:16 DEBUG RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
-2024-09-28 17:42:16 DEBUG DefaultHttpClient - Attempt 1 to execute request
-2024-09-28 17:42:16 DEBUG DefaultClientConnection - Sending request: GET /Ellithium/api/users HTTP/1.1
-2024-09-28 17:42:16 DEBUG wire -  >> "GET /Ellithium/api/users HTTP/1.1[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  >> "Accept: */*[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  >> "Host: 66e5adf25cc7f9b6273e0f96.mockapi.io[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  >> "Connection: Keep-Alive[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21)[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  >> "[\r][\n]"
-2024-09-28 17:42:16 DEBUG headers - >> GET /Ellithium/api/users HTTP/1.1
-2024-09-28 17:42:16 DEBUG headers - >> Accept: */*
-2024-09-28 17:42:16 DEBUG headers - >> Host: 66e5adf25cc7f9b6273e0f96.mockapi.io
-2024-09-28 17:42:16 DEBUG headers - >> Connection: Keep-Alive
-2024-09-28 17:42:16 DEBUG headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21)
-2024-09-28 17:42:16 DEBUG headers - >> Accept-Encoding: gzip,deflate
-2024-09-28 17:42:16 DEBUG wire -  << "HTTP/1.1 200 OK[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  << "Server: Cowboy[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1727534537&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=s8SMHbwiEHMBfGCSWMdVGxqk2ChHC%2FJhQWkUpdrMBS4%3D"}]}[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1727534537&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=s8SMHbwiEHMBfGCSWMdVGxqk2ChHC%2FJhQWkUpdrMBS4%3D[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  << "Connection: keep-alive[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  << "X-Powered-By: Express[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  << "Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  << "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Cache-Control,access_token[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  << "Content-Type: application/json[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  << "Content-Length: 13876[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  << "Etag: "-1467168614"[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  << "Date: Sat, 28 Sep 2024 14:42:17 GMT[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  << "Via: 1.1 vegur[\r][\n]"
-2024-09-28 17:42:16 DEBUG wire -  << "[\r][\n]"
-2024-09-28 17:42:16 DEBUG DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
-2024-09-28 17:42:16 DEBUG headers - << HTTP/1.1 200 OK
-2024-09-28 17:42:16 DEBUG headers - << Server: Cowboy
-2024-09-28 17:42:16 DEBUG headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1727534537&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=s8SMHbwiEHMBfGCSWMdVGxqk2ChHC%2FJhQWkUpdrMBS4%3D"}]}
-2024-09-28 17:42:16 DEBUG headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1727534537&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=s8SMHbwiEHMBfGCSWMdVGxqk2ChHC%2FJhQWkUpdrMBS4%3D
-2024-09-28 17:42:16 DEBUG headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-2024-09-28 17:42:16 DEBUG headers - << Connection: keep-alive
-2024-09-28 17:42:16 DEBUG headers - << X-Powered-By: Express
-2024-09-28 17:42:16 DEBUG headers - << Access-Control-Allow-Origin: *
-2024-09-28 17:42:16 DEBUG headers - << Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
-2024-09-28 17:42:16 DEBUG headers - << Access-Control-Allow-Headers: X-Requested-With,Content-Type,Cache-Control,access_token
-2024-09-28 17:42:16 DEBUG headers - << Content-Type: application/json
-2024-09-28 17:42:16 DEBUG headers - << Content-Length: 13876
-2024-09-28 17:42:16 DEBUG headers - << Etag: "-1467168614"
-2024-09-28 17:42:16 DEBUG headers - << Date: Sat, 28 Sep 2024 14:42:17 GMT
-2024-09-28 17:42:16 DEBUG headers - << Via: 1.1 vegur
-2024-09-28 17:42:16 DEBUG DefaultHttpClient - Connection can be kept alive indefinitely
-2024-09-28 17:42:16 DEBUG RestAssuredHttpBuilder - Parsing response as: application/json
-2024-09-28 17:42:16 DEBUG RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-2024-09-28 17:42:16 INFO  logsUtils - [94m[PASSED] TESTCASE getAllUsersRequest [PASSED][0m
-2024-09-28 17:42:16 DEBUG DefaultClientConnection - Connection 0.0.0.0:60406<->18.205.222.128:443 closed
-2024-09-28 17:42:16 INFO  logsUtils - [95m[ALL TESTS COMPLETED]: API TESTS [ALL TESTS COMPLETED][0m
-2024-09-28 17:42:16 INFO  logsUtils - [96m[ALL TESTS STARTED]: UI CHROME [ALL TESTS STARTED][0m
-2024-09-28 17:42:16 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
-2024-09-28 17:42:17 INFO  logsUtils - [96m[START] CHROME[94m Scenario Verify that user can search with partially product name [START]
-[0m
-2024-09-28 17:42:17 INFO  logsUtils - [92mChrome Options Configured[0m
-2024-09-28 17:42:21 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
-2024-09-28 17:42:21 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
-2024-09-28 17:42:21 INFO  logsUtils - [92mWebDriver Created[0m
-2024-09-28 17:42:24 INFO  logsUtils - [95mLevel: error[0m
-2024-09-28 17:42:24 INFO  logsUtils - [38;5;200mText: Failed to load resource: the server responded with a status of 400 ()[0m
-2024-09-28 17:42:24 INFO  logsUtils - [38;5;94mURL: Optional[https://www.noon.com/_svc/mp-identity-api/customer/get][0m
-2024-09-28 17:42:24 INFO  logsUtils - [93mStackTrace: Optional.empty[0m
-2024-09-28 17:42:24 INFO  logsUtils - [95mLevel: error[0m
-2024-09-28 17:42:24 INFO  logsUtils - [38;5;200mText: Failed to load resource: the server responded with a status of 404 ()[0m
-2024-09-28 17:42:24 INFO  logsUtils - [38;5;94mURL: Optional[https://www.noon.com/_svc/catalog/api/v3/u/account-loyalty][0m
-2024-09-28 17:42:24 INFO  logsUtils - [93mStackTrace: Optional.empty[0m
-2024-09-28 17:42:24 INFO  logsUtils - [95mLevel: error[0m
-2024-09-28 17:42:24 INFO  logsUtils - [38;5;200mText: Failed to load resource: the server responded with a status of 403 ()[0m
-2024-09-28 17:42:24 INFO  logsUtils - [38;5;94mURL: Optional[https://www.noon.com/_svc/customer-v1/customer/addresses][0m
-2024-09-28 17:42:24 INFO  logsUtils - [93mStackTrace: Optional.empty[0m
-2024-09-28 17:42:25 INFO  logsUtils - [95mLevel: error[0m
-2024-09-28 17:42:25 INFO  logsUtils - [38;5;200mText: Failed to load resource: the server responded with a status of 400 ()[0m
-2024-09-28 17:42:25 INFO  logsUtils - [38;5;94mURL: Optional[https://www.noon.com/_svc/smartassist/entry-points][0m
-2024-09-28 17:42:25 INFO  logsUtils - [93mStackTrace: Optional.empty[0m
-2024-09-28 17:42:35 INFO  logsUtils - [94mNavigated To URL: https://www.noon.com/egypt-en/[0m
-2024-09-28 17:42:35 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
-2024-09-28 17:42:35 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
-2024-09-28 17:42:35 INFO  logsUtils - [94mSending Data "lapt" To Element: By.id: searchBar[0m
-2024-09-28 17:42:35 INFO  logsUtils - [94mSending Data "ENTER" To Element: By.id: searchBar[0m
-2024-09-28 17:42:35 INFO  logsUtils - [94mSending Data "ENTER" To Element: By.id: searchBar[0m
-2024-09-28 17:42:35 INFO  logsUtils - [94mWaiting for Element To Disappear: By.xpath: //img[@alt='Loading' and @loading='lazy'][0m
-2024-09-28 17:42:36 INFO  logsUtils - [94mGetting Attribute from multiple elements located: By.cssSelector: div[data-qa='product-name'][0m
-2024-09-28 17:42:37 INFO  logsUtils - [94mGetting Timestamp: 2024-09-28-5-42-37PM[0m
-2024-09-28 17:42:37 INFO  logsUtils - [91m CHROME[FAILED] Scenario Verify that user can search with partially product name [FAILED][0m
-2024-09-28 17:42:37 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
-2024-09-28 17:42:37 INFO  logsUtils - [95m[ALL TESTS COMPLETED]: UI CHROME [ALL TESTS COMPLETED][0m
-2024-09-28 17:42:37 TRACE Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6d6bc158] 685419049
-2024-09-28 17:42:37 TRACE Graph - [Graph] ================ SORTING
-2024-09-28 17:42:37 TRACE Graph - [Graph] =============== DONE SORTING
-2024-09-28 17:42:37 TRACE Graph - [Graph] ====== SORTED NODES
-2024-09-28 17:42:37 TRACE Graph - [Graph] ====== END SORTED NODES
-2024-09-28 17:42:37 INFO  logsUtils - [94m-------------------------------------------[0m
-2024-09-28 17:42:37 INFO  logsUtils - [96m------- Ellithium  Engine TearDown  -------[0m
-2024-09-28 17:42:37 INFO  logsUtils - [94m-------------------------------------------[0m
-2024-09-28 17:42:37 INFO  logsUtils - [96m
-Total Execution Time is: 0 Min 21 Sec 975 Mills
-[0m
-2024-09-28 17:42:37 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\log4j2[0m
-2024-09-28 17:42:37 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\log4j2[0m
-2024-09-28 17:42:37 INFO  logsUtils - Log file successfully attached to the Allure report.
-2024-09-28 17:42:37 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\allure[0m
-2024-09-28 17:42:37 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\allure[0m
-2024-09-28 17:42:37 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\allure[0m
-2024-09-28 17:42:37 INFO  logsUtils - [92mAllure folder exists at: C:\Users\lenovo\.m2\repository\allure-Ellithium[0m
-2024-09-28 17:42:37 INFO  logsUtils - [92mFound Allure binary directory: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin[0m
-2024-09-28 17:42:37 ERROR AllureLifecycle - Could not start step: no test case running
-2024-09-28 17:42:37 ERROR AllureLifecycle - Could not stop step: step with uuid 4c517c00-4273-48fa-9110-915c566399df not found
-2024-09-28 17:42:44 INFO  logsUtils - [92mCommand exited with code: 0[0m
-2024-09-28 17:42:44 ERROR AllureLifecycle - Could not start step: no test case running
-2024-09-28 17:42:44 ERROR AllureLifecycle - Could not stop step: step with uuid f6c29463-c01d-4edd-9694-460201a22b42 not found
-2024-09-28 17:42:44 INFO  logsUtils - [94mGetting Timestamp: 2024-09-28-5-42-44PM[0m
-2024-09-28 17:42:44 ERROR AllureLifecycle - Could not start step: no test case running
-2024-09-28 17:42:44 ERROR AllureLifecycle - Could not stop step: step with uuid 2f4e18c4-2f48-4a5b-93e0-4f3fbaba62d4 not found
-2024-09-28 17:42:44 ERROR AllureLifecycle - Could not start step: no test case running
-2024-09-28 17:42:44 ERROR AllureLifecycle - Could not stop step: step with uuid 63a228eb-6c58-4c73-b9b6-1334d5bf74f9 not found
-2024-09-28 17:42:44 INFO  logsUtils - [92mCommand exited with code: 0[0m
-2024-09-28 17:42:44 ERROR AllureLifecycle - Could not start step: no test case running
-2024-09-28 17:42:44 ERROR AllureLifecycle - Could not stop step: step with uuid 6b5fd18a-4572-4c11-b890-6b9636e820c2 not found
+2024-10-08 22:46:33 INFO  logsUtils - [94mGetting Timestamp: 2024-10-08[0m
+2024-10-08 22:46:33 INFO  logsUtils - [94mReading value for key: LastRunDate from JSON file: Test-Output\UpdateChecker\checker[0m
+2024-10-08 22:46:33 INFO  logsUtils - [92mSuccessfully read value for key: LastRunDate from JSON file: Test-Output\UpdateChecker\checker[0m
+2024-10-08 22:46:33 INFO  logsUtils - [94m---------------------------------------------[0m
+2024-10-08 22:46:33 INFO  logsUtils - [96m------- Ellithium  Engine Setup -------------[0m
+2024-10-08 22:46:33 INFO  logsUtils - [94m---------------------------------------------[0m
+2024-10-08 22:46:33 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-10-08 22:46:33 INFO  logsUtils - [38;5;200m[ SUITE STARTED]: UI , API TESTS [SUITE STARTED][0m
+2024-10-08 22:46:33 INFO  logsUtils - [95m[ALL TESTS STARTED]: API TESTS [ALL TESTS STARTED][0m
+2024-10-08 22:46:33 INFO  logsUtils - [94m[START] TESTCASE getAllUsersRequest [STARTED][0m
+2024-10-08 22:46:34 DEBUG BasicClientConnectionManager - Get connection for route {s}->https://66e5adf25cc7f9b6273e0f96.mockapi.io:443
+2024-10-08 22:46:35 DEBUG DefaultClientConnectionOperator - Connecting to 66e5adf25cc7f9b6273e0f96.mockapi.io:443
+2024-10-08 22:46:35 DEBUG RequestAddCookies - CookieSpec selected: ignoreCookies
+2024-10-08 22:46:35 DEBUG RequestAuthCache - Auth cache not set in the context
+2024-10-08 22:46:35 DEBUG RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2024-10-08 22:46:35 DEBUG RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2024-10-08 22:46:35 DEBUG DefaultHttpClient - Attempt 1 to execute request
+2024-10-08 22:46:35 DEBUG DefaultClientConnection - Sending request: GET /Ellithium/api/users HTTP/1.1
+2024-10-08 22:46:35 DEBUG wire -  >> "GET /Ellithium/api/users HTTP/1.1[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  >> "Accept: */*[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  >> "Host: 66e5adf25cc7f9b6273e0f96.mockapi.io[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  >> "Connection: Keep-Alive[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21)[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  >> "[\r][\n]"
+2024-10-08 22:46:35 DEBUG headers - >> GET /Ellithium/api/users HTTP/1.1
+2024-10-08 22:46:35 DEBUG headers - >> Accept: */*
+2024-10-08 22:46:35 DEBUG headers - >> Host: 66e5adf25cc7f9b6273e0f96.mockapi.io
+2024-10-08 22:46:35 DEBUG headers - >> Connection: Keep-Alive
+2024-10-08 22:46:35 DEBUG headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21)
+2024-10-08 22:46:35 DEBUG headers - >> Accept-Encoding: gzip,deflate
+2024-10-08 22:46:35 DEBUG wire -  << "HTTP/1.1 200 OK[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  << "Server: Cowboy[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1728416796&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=ZwC5ZtcV%2BMl9oDyemjQyanz9X90sKGFZJu24oXsgvUI%3D"}]}[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1728416796&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=ZwC5ZtcV%2BMl9oDyemjQyanz9X90sKGFZJu24oXsgvUI%3D[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  << "Connection: keep-alive[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  << "X-Powered-By: Express[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  << "Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  << "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Cache-Control,access_token[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  << "Content-Type: application/json[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  << "Content-Length: 13876[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  << "Etag: "-1467168614"[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  << "Date: Tue, 08 Oct 2024 19:46:36 GMT[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  << "Via: 1.1 vegur[\r][\n]"
+2024-10-08 22:46:35 DEBUG wire -  << "[\r][\n]"
+2024-10-08 22:46:35 DEBUG DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+2024-10-08 22:46:35 DEBUG headers - << HTTP/1.1 200 OK
+2024-10-08 22:46:35 DEBUG headers - << Server: Cowboy
+2024-10-08 22:46:35 DEBUG headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1728416796&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=ZwC5ZtcV%2BMl9oDyemjQyanz9X90sKGFZJu24oXsgvUI%3D"}]}
+2024-10-08 22:46:35 DEBUG headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1728416796&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=ZwC5ZtcV%2BMl9oDyemjQyanz9X90sKGFZJu24oXsgvUI%3D
+2024-10-08 22:46:35 DEBUG headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+2024-10-08 22:46:35 DEBUG headers - << Connection: keep-alive
+2024-10-08 22:46:35 DEBUG headers - << X-Powered-By: Express
+2024-10-08 22:46:35 DEBUG headers - << Access-Control-Allow-Origin: *
+2024-10-08 22:46:35 DEBUG headers - << Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+2024-10-08 22:46:35 DEBUG headers - << Access-Control-Allow-Headers: X-Requested-With,Content-Type,Cache-Control,access_token
+2024-10-08 22:46:35 DEBUG headers - << Content-Type: application/json
+2024-10-08 22:46:35 DEBUG headers - << Content-Length: 13876
+2024-10-08 22:46:35 DEBUG headers - << Etag: "-1467168614"
+2024-10-08 22:46:35 DEBUG headers - << Date: Tue, 08 Oct 2024 19:46:36 GMT
+2024-10-08 22:46:35 DEBUG headers - << Via: 1.1 vegur
+2024-10-08 22:46:35 DEBUG DefaultHttpClient - Connection can be kept alive indefinitely
+2024-10-08 22:46:35 DEBUG RestAssuredHttpBuilder - Parsing response as: application/json
+2024-10-08 22:46:35 DEBUG RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2024-10-08 22:46:35 INFO  logsUtils - [94m[PASSED] TESTCASE getAllUsersRequest [PASSED][0m
+2024-10-08 22:46:35 INFO  logsUtils - [95m[ALL TESTS COMPLETED]: API TESTS [ALL TESTS COMPLETED][0m
+2024-10-08 22:46:35 INFO  logsUtils - [95m[ALL TESTS STARTED]: UI CHROME [ALL TESTS STARTED][0m
+2024-10-08 22:46:35 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-10-08 22:46:36 INFO  logsUtils - [96m[START] [94m Scenario Verify that user can search with partially product name [START][0m
+2024-10-08 22:46:36 INFO  logsUtils - [92mChrome Options Configured[0m
+2024-10-08 22:46:40 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-10-08 22:46:40 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-10-08 22:46:41 INFO  logsUtils - [92mWebDriver Created[0m
+2024-10-08 22:46:41 INFO  logsUtils - [94mNavigating to URL: https://www.noon.com/egypt-en/[0m
+2024-10-08 22:46:43 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-10-08 22:46:43 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-10-08 22:46:43 INFO  logsUtils - [95mLevel: error[0m
+2024-10-08 22:46:43 INFO  logsUtils - [38;5;200mText: Failed to load resource: the server responded with a status of 400 ()[0m
+2024-10-08 22:46:43 INFO  logsUtils - [38;5;94mURL: Optional[https://www.noon.com/_svc/mp-identity-api/customer/get][0m
+2024-10-08 22:46:43 INFO  logsUtils - [93mStackTrace: Optional.empty[0m
+2024-10-08 22:46:44 INFO  logsUtils - [95mLevel: error[0m
+2024-10-08 22:46:44 INFO  logsUtils - [38;5;200mText: Failed to load resource: the server responded with a status of 403 ()[0m
+2024-10-08 22:46:44 INFO  logsUtils - [38;5;94mURL: Optional[https://www.noon.com/_svc/customer-v1/customer/addresses][0m
+2024-10-08 22:46:44 INFO  logsUtils - [93mStackTrace: Optional.empty[0m
+2024-10-08 22:46:44 INFO  logsUtils - [95mLevel: error[0m
+2024-10-08 22:46:44 INFO  logsUtils - [38;5;200mText: Failed to load resource: the server responded with a status of 404 ()[0m
+2024-10-08 22:46:44 INFO  logsUtils - [38;5;94mURL: Optional[https://www.noon.com/_svc/catalog/api/v3/u/account-loyalty][0m
+2024-10-08 22:46:44 INFO  logsUtils - [93mStackTrace: Optional.empty[0m
+2024-10-08 22:46:44 INFO  logsUtils - [95mLevel: error[0m
+2024-10-08 22:46:44 INFO  logsUtils - [38;5;200mText: Failed to load resource: the server responded with a status of 400 ()[0m
+2024-10-08 22:46:44 INFO  logsUtils - [38;5;94mURL: Optional[https://www.noon.com/_svc/smartassist/entry-points][0m
+2024-10-08 22:46:44 INFO  logsUtils - [93mStackTrace: Optional.empty[0m
+2024-10-08 22:46:45 INFO  logsUtils - [94mSent Data: "lapt" into What are you looking for?.[0m
+2024-10-08 22:46:46 INFO  logsUtils - [94mSent Data: "ENTER" into What are you looking for?.[0m
+2024-10-08 22:46:46 INFO  logsUtils - [94mSent Data: "ENTER" into What are you looking for?.[0m
+2024-10-08 22:46:46 INFO  logsUtils - [94mWaiting for Element To Disappear: By.xpath: //img[@alt='Loading' and @loading='lazy'][0m
+2024-10-08 22:46:46 INFO  logsUtils - [94mGetting Attribute from multiple elements located: By.cssSelector: div[data-qa='product-name'][0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: Lenovo IdeaPad 3 14IML05 Laptop With 14-Inch FHD (1920x1080) Display, Core i5 Processor/4GB RAM/1TB HDD/DOS(Without Windows)/Intel UHD Graphics English/Arabic Platinum Grey [0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: DELL Vostro 3515 Laptop With 15.6-Inch FHD Display, AMD Ryzen 7 3700U Processor/8GB RAM/512GB SSD/DOS(Without Windows)/AMD Radeon RX Vega 10 Graphics Card English/Arabic Carbon Black [0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: Lenovo ThinkPad E16 Gen 1 Laptop With 16-inch (1920x1200) Display, Intel Core i7-1355U Processor/8GB RAM DDR4/512GB SSD/DOS(Without windows)/Intel Iris Xe Graphics/ English/Arabic Graphite Black [0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: Lenovo ThinkPad E15 Gen 2 20TD006FAD Laptop With 15.6-Inch Full HD Display, Core i5 Processor/8GB RAM/512GB SSD/DOS(Without windows)/2GB Nvidia GeForce MX350 /International Version English/Arabic Black [0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: Lenovo ThinkPad E16 Gen 1 Laptop With 16-inch (1920x1200) Display, Intel Core i7-1355U Processor/16GB RAM DDR4/512GB SSD/DOS(Without windows)/NVIDIA GeForce MX550 2GB/ English/Arabic Graphite Black [0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: DELL Vostro 3515 Laptop With 15.6-Inch FHD Anti-Glare Screen Display, Ryzen5 3450U Processor/8GB RAM/256GB SSD/DOS(Without Windows)/AMD Radeon Vega 8 Graphics Card English/Arabic Black [0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: Lenovo ThinkPad E16 Gen 1 Laptop With 16-inch (1920x1200) Display, Intel Core i5-1335U Processor/8GB RAM/512GB SSD/DOS(Without Windows)/Intel Iris Xe Graphics/ English/Arabic Graphite Black [0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: Lenovo IdeaPad 3 15ITL6 Laptop With 15.6-Inch FHD Display, Core i5-1135G7 Processor/8GB RAM/1TB HDD/DOS/2GB GeForce MX350 Graphic Card English/Arabic Blue [0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: DELL Vostro 3515 Laptop With 15.6-Inch FHD Display, Ryzen 5-3450U Processor/8GB RAM/512GB SSD/DOS (Without windows)/AMD Radeon Vega 8 Graphic Card English/Arabic Black [0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: Lenovo IdeaPad 3 Gaming Laptop With 15.6-Inch FHD IPS Anti-Glare Display, Ryzen 7 5800H Processor/16GB RAM/512GB SSD/DOS/4GB NVIDIA GeForce RTX 3050 English/Arabic Shadow Black [0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: lenovo ideapad 3 14iml05 laptop with 14-inch fhd (1920x1080) display, core i5 processor/4gb ram/1tb hdd/dos(without windows)/intel uhd graphics english/arabic platinum grey  contains Value: laptop[0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: dell vostro 3515 laptop with 15.6-inch fhd display, amd ryzen 7 3700u processor/8gb ram/512gb ssd/dos(without windows)/amd radeon rx vega 10 graphics card english/arabic carbon black  contains Value: laptop[0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: lenovo thinkpad e16 gen 1 laptop with 16-inch (1920x1200) display, intel core i7-1355u processor/8gb ram ddr4/512gb ssd/dos(without windows)/intel iris xe graphics/ english/arabic graphite black  contains Value: laptop[0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: lenovo thinkpad e15 gen 2 20td006fad laptop with 15.6-inch full hd display, core i5 processor/8gb ram/512gb ssd/dos(without windows)/2gb nvidia geforce mx350 /international version english/arabic black  contains Value: laptop[0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: lenovo thinkpad e16 gen 1 laptop with 16-inch (1920x1200) display, intel core i7-1355u processor/16gb ram ddr4/512gb ssd/dos(without windows)/nvidia geforce mx550 2gb/ english/arabic graphite black  contains Value: laptop[0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: dell vostro 3515 laptop with 15.6-inch fhd anti-glare screen display, ryzen5 3450u processor/8gb ram/256gb ssd/dos(without windows)/amd radeon vega 8 graphics card english/arabic black  contains Value: laptop[0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: lenovo thinkpad e16 gen 1 laptop with 16-inch (1920x1200) display, intel core i5-1335u processor/8gb ram/512gb ssd/dos(without windows)/intel iris xe graphics/ english/arabic graphite black  contains Value: laptop[0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: lenovo ideapad 3 15itl6 laptop with 15.6-inch fhd display, core i5-1135g7 processor/8gb ram/1tb hdd/dos/2gb geforce mx350 graphic card english/arabic blue  contains Value: laptop[0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: dell vostro 3515 laptop with 15.6-inch fhd display, ryzen 5-3450u processor/8gb ram/512gb ssd/dos (without windows)/amd radeon vega 8 graphic card english/arabic black  contains Value: laptop[0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: lenovo ideapad 3 gaming laptop with 15.6-inch fhd ips anti-glare display, ryzen 7 5800h processor/16gb ram/512gb ssd/dos/4gb nvidia geforce rtx 3050 english/arabic shadow black  contains Value: laptop[0m
+2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assertions Completed and Asserting All[0m
+2024-10-08 22:46:47 INFO  logsUtils - [92m[PASSED] Scenario Verify that user can search with partially product name [PASSED][0m
+2024-10-08 22:46:47 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
+2024-10-08 22:46:51 INFO  logsUtils - [94mWebDriver quit[0m
+2024-10-08 22:46:51 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\log4j2[0m
+2024-10-08 22:46:51 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\log4j2[0m
+2024-10-08 22:46:51 INFO  logsUtils - Log file successfully attached to the Allure report.
+2024-10-08 22:46:51 INFO  logsUtils - [95m[ALL TESTS COMPLETED]: UI CHROME [ALL TESTS COMPLETED][0m
+2024-10-08 22:46:51 INFO  logsUtils - [38;5;200m[SUITE FINISHED]: UI , API TESTS [SUITE FINISHED][0m
+2024-10-08 22:46:51 INFO  logsUtils - [94m------------------------------------------[0m
+2024-10-08 22:46:51 INFO  logsUtils - [96m------- Ellithium  Engine TearDown -------[0m
+2024-10-08 22:46:51 INFO  logsUtils - [94m------------------------------------------[0m
+2024-10-08 22:46:51 INFO  logsUtils - [96mTotal Execution Time is: 0 Min 17 Sec 909 Mills[0m
+2024-10-08 22:46:51 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-10-08 22:46:51 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-10-08 22:46:51 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-10-08 22:46:51 INFO  logsUtils - [92mAllure folder exists at: C:\Users\lenovo\.m2\repository\allure-Ellithium[0m
+2024-10-08 22:46:51 INFO  logsUtils - [92mFound Allure binary directory: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin[0m
+2024-10-08 22:46:51 INFO  logsUtils - [92mAttempting to execute command: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin\allure generate --single-file --name "Test Report" -o .\LastReport\ .\Test-Output/Reports/Allure/allure-results\[0m
+2024-10-08 22:46:54 INFO  logsUtils - [92mCommand executed successfully. Exit code: 0[0m
+2024-10-08 22:46:54 INFO  logsUtils - [94mGetting Timestamp: 2024-10-08-10-46-54PM[0m
+2024-10-08 22:46:54 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
+2024-10-08 22:46:54 INFO  logsUtils - [92mAttempting to execute command: start Test-Output\Reports\Allure\allure-report\Ellithium-Test-Report-2024-10-08-10-46-54PM.html[0m
+2024-10-08 22:46:54 INFO  logsUtils - [92mCommand executed successfully. Exit code: 0[0m

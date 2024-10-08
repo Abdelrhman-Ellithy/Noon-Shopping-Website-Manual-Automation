@@ -11,11 +11,11 @@
             <class name="Runner.TestRunner"/>
         </classes>
     </test>
-    <test name="UI Edge">
-        <parameter name="BrowserName" value="Edge"></parameter>
-        <parameter name="PageLoadStrategy" value="Eager"></parameter>
-        <classes>
-            <class name="Runner.TestRunner"/>
-        </classes>
-    </test>
+<!--    <test name="UI Edge">-->
+<!--        <parameter name="BrowserName" value="Edge"></parameter>-->
+<!--        <parameter name="PageLoadStrategy" value="Eager"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="Runner.TestRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>

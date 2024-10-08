@@ -12,29 +12,13 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <restversion>5.4.0</restversion>
-        <Ellithiumversion>1.0.3</Ellithiumversion>
+        <Ellithiumversion>1.0.5</Ellithiumversion>
     </properties>
-    <repositories>
-        <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/Abdelrhman-Ellithy/Ellithium/</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
     <dependencies>
         <dependency>
-            <groupId>io.github</groupId>
-            <artifactId>Ellithium</artifactId>
+            <groupId>io.github.abdelrhman-ellithy</groupId>
+            <artifactId>ellithium</artifactId>
             <version>${Ellithiumversion}</version>
-        </dependency>
-        <!-- Rest Assured Dependencies -->
-        <dependency>
-            <groupId>io.rest-assured</groupId>
-            <artifactId>rest-assured</artifactId>
-            <version>${restversion}</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
     <build>
@@ -78,7 +62,7 @@
                             <goal>java</goal>
                         </goals>
                         <configuration>
-                            <mainClass>Ellithium.Internal.StartUpLoader</mainClass>
+                            <mainClass>Ellithium.core.execution.Internal.Loader.StartUpLoader</mainClass>
                             <includePluginDependencies>true</includePluginDependencies>
                             <classpathScope>compile</classpathScope>
                         </configuration>
@@ -88,7 +72,7 @@
         </plugins>
         <resources>
             <resource>
-                <directory>src/main/resources/properties/default</directory>
+                <directory>src/main/resources/properties</directory>
                 <includes>
                     <include>**/*.properties</include>
                 </includes>

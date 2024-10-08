@@ -1,12 +1,9 @@
 package Pages;
 
-import static Ellithium.Utilities.DriverActions.*;
-
-import Ellithium.Utilities.DriverActions;
+import static Ellithium.Utilities.browser.DriverActions.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.util.List;
 
 public class SearchPage {
