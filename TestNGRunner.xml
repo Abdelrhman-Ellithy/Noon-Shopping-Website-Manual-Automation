@@ -6,7 +6,6 @@
         </classes>
     </test>
     <test name="UI Chrome">
-        <parameter name="PageLoadStrategy" value="Eager"></parameter>
         <classes>
             <class name="Runner.TestRunner"/>
         </classes>
