@@ -1,143 +1,37 @@
-2024-10-08 22:46:33 INFO  logsUtils - [94mGetting Timestamp: 2024-10-08[0m
-2024-10-08 22:46:33 INFO  logsUtils - [94mReading value for key: LastRunDate from JSON file: Test-Output\UpdateChecker\checker[0m
-2024-10-08 22:46:33 INFO  logsUtils - [92mSuccessfully read value for key: LastRunDate from JSON file: Test-Output\UpdateChecker\checker[0m
-2024-10-08 22:46:33 INFO  logsUtils - [94m---------------------------------------------[0m
-2024-10-08 22:46:33 INFO  logsUtils - [96m------- Ellithium  Engine Setup -------------[0m
-2024-10-08 22:46:33 INFO  logsUtils - [94m---------------------------------------------[0m
-2024-10-08 22:46:33 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
-2024-10-08 22:46:33 INFO  logsUtils - [38;5;200m[ SUITE STARTED]: UI , API TESTS [SUITE STARTED][0m
-2024-10-08 22:46:33 INFO  logsUtils - [95m[ALL TESTS STARTED]: API TESTS [ALL TESTS STARTED][0m
-2024-10-08 22:46:33 INFO  logsUtils - [94m[START] TESTCASE getAllUsersRequest [STARTED][0m
-2024-10-08 22:46:34 DEBUG BasicClientConnectionManager - Get connection for route {s}->https://66e5adf25cc7f9b6273e0f96.mockapi.io:443
-2024-10-08 22:46:35 DEBUG DefaultClientConnectionOperator - Connecting to 66e5adf25cc7f9b6273e0f96.mockapi.io:443
-2024-10-08 22:46:35 DEBUG RequestAddCookies - CookieSpec selected: ignoreCookies
-2024-10-08 22:46:35 DEBUG RequestAuthCache - Auth cache not set in the context
-2024-10-08 22:46:35 DEBUG RequestTargetAuthentication - Target auth state: UNCHALLENGED
-2024-10-08 22:46:35 DEBUG RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
-2024-10-08 22:46:35 DEBUG DefaultHttpClient - Attempt 1 to execute request
-2024-10-08 22:46:35 DEBUG DefaultClientConnection - Sending request: GET /Ellithium/api/users HTTP/1.1
-2024-10-08 22:46:35 DEBUG wire -  >> "GET /Ellithium/api/users HTTP/1.1[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  >> "Accept: */*[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  >> "Host: 66e5adf25cc7f9b6273e0f96.mockapi.io[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  >> "Connection: Keep-Alive[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21)[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  >> "[\r][\n]"
-2024-10-08 22:46:35 DEBUG headers - >> GET /Ellithium/api/users HTTP/1.1
-2024-10-08 22:46:35 DEBUG headers - >> Accept: */*
-2024-10-08 22:46:35 DEBUG headers - >> Host: 66e5adf25cc7f9b6273e0f96.mockapi.io
-2024-10-08 22:46:35 DEBUG headers - >> Connection: Keep-Alive
-2024-10-08 22:46:35 DEBUG headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21)
-2024-10-08 22:46:35 DEBUG headers - >> Accept-Encoding: gzip,deflate
-2024-10-08 22:46:35 DEBUG wire -  << "HTTP/1.1 200 OK[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  << "Server: Cowboy[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1728416796&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=ZwC5ZtcV%2BMl9oDyemjQyanz9X90sKGFZJu24oXsgvUI%3D"}]}[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1728416796&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=ZwC5ZtcV%2BMl9oDyemjQyanz9X90sKGFZJu24oXsgvUI%3D[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  << "Connection: keep-alive[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  << "X-Powered-By: Express[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  << "Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  << "Access-Control-Allow-Headers: X-Requested-With,Content-Type,Cache-Control,access_token[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  << "Content-Type: application/json[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  << "Content-Length: 13876[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  << "Etag: "-1467168614"[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  << "Date: Tue, 08 Oct 2024 19:46:36 GMT[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  << "Via: 1.1 vegur[\r][\n]"
-2024-10-08 22:46:35 DEBUG wire -  << "[\r][\n]"
-2024-10-08 22:46:35 DEBUG DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
-2024-10-08 22:46:35 DEBUG headers - << HTTP/1.1 200 OK
-2024-10-08 22:46:35 DEBUG headers - << Server: Cowboy
-2024-10-08 22:46:35 DEBUG headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1728416796&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=ZwC5ZtcV%2BMl9oDyemjQyanz9X90sKGFZJu24oXsgvUI%3D"}]}
-2024-10-08 22:46:35 DEBUG headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1728416796&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=ZwC5ZtcV%2BMl9oDyemjQyanz9X90sKGFZJu24oXsgvUI%3D
-2024-10-08 22:46:35 DEBUG headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-2024-10-08 22:46:35 DEBUG headers - << Connection: keep-alive
-2024-10-08 22:46:35 DEBUG headers - << X-Powered-By: Express
-2024-10-08 22:46:35 DEBUG headers - << Access-Control-Allow-Origin: *
-2024-10-08 22:46:35 DEBUG headers - << Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
-2024-10-08 22:46:35 DEBUG headers - << Access-Control-Allow-Headers: X-Requested-With,Content-Type,Cache-Control,access_token
-2024-10-08 22:46:35 DEBUG headers - << Content-Type: application/json
-2024-10-08 22:46:35 DEBUG headers - << Content-Length: 13876
-2024-10-08 22:46:35 DEBUG headers - << Etag: "-1467168614"
-2024-10-08 22:46:35 DEBUG headers - << Date: Tue, 08 Oct 2024 19:46:36 GMT
-2024-10-08 22:46:35 DEBUG headers - << Via: 1.1 vegur
-2024-10-08 22:46:35 DEBUG DefaultHttpClient - Connection can be kept alive indefinitely
-2024-10-08 22:46:35 DEBUG RestAssuredHttpBuilder - Parsing response as: application/json
-2024-10-08 22:46:35 DEBUG RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-2024-10-08 22:46:35 INFO  logsUtils - [94m[PASSED] TESTCASE getAllUsersRequest [PASSED][0m
-2024-10-08 22:46:35 INFO  logsUtils - [95m[ALL TESTS COMPLETED]: API TESTS [ALL TESTS COMPLETED][0m
-2024-10-08 22:46:35 INFO  logsUtils - [95m[ALL TESTS STARTED]: UI CHROME [ALL TESTS STARTED][0m
-2024-10-08 22:46:35 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-10-08 22:46:36 INFO  logsUtils - [96m[START] [94m Scenario Verify that user can search with partially product name [START][0m
-2024-10-08 22:46:36 INFO  logsUtils - [92mChrome Options Configured[0m
-2024-10-08 22:46:40 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-10-08 22:46:40 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-10-08 22:46:41 INFO  logsUtils - [92mWebDriver Created[0m
-2024-10-08 22:46:41 INFO  logsUtils - [94mNavigating to URL: https://www.noon.com/egypt-en/[0m
-2024-10-08 22:46:43 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-10-08 22:46:43 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-10-08 22:46:43 INFO  logsUtils - [95mLevel: error[0m
-2024-10-08 22:46:43 INFO  logsUtils - [38;5;200mText: Failed to load resource: the server responded with a status of 400 ()[0m
-2024-10-08 22:46:43 INFO  logsUtils - [38;5;94mURL: Optional[https://www.noon.com/_svc/mp-identity-api/customer/get][0m
-2024-10-08 22:46:43 INFO  logsUtils - [93mStackTrace: Optional.empty[0m
-2024-10-08 22:46:44 INFO  logsUtils - [95mLevel: error[0m
-2024-10-08 22:46:44 INFO  logsUtils - [38;5;200mText: Failed to load resource: the server responded with a status of 403 ()[0m
-2024-10-08 22:46:44 INFO  logsUtils - [38;5;94mURL: Optional[https://www.noon.com/_svc/customer-v1/customer/addresses][0m
-2024-10-08 22:46:44 INFO  logsUtils - [93mStackTrace: Optional.empty[0m
-2024-10-08 22:46:44 INFO  logsUtils - [95mLevel: error[0m
-2024-10-08 22:46:44 INFO  logsUtils - [38;5;200mText: Failed to load resource: the server responded with a status of 404 ()[0m
-2024-10-08 22:46:44 INFO  logsUtils - [38;5;94mURL: Optional[https://www.noon.com/_svc/catalog/api/v3/u/account-loyalty][0m
-2024-10-08 22:46:44 INFO  logsUtils - [93mStackTrace: Optional.empty[0m
-2024-10-08 22:46:44 INFO  logsUtils - [95mLevel: error[0m
-2024-10-08 22:46:44 INFO  logsUtils - [38;5;200mText: Failed to load resource: the server responded with a status of 400 ()[0m
-2024-10-08 22:46:44 INFO  logsUtils - [38;5;94mURL: Optional[https://www.noon.com/_svc/smartassist/entry-points][0m
-2024-10-08 22:46:44 INFO  logsUtils - [93mStackTrace: Optional.empty[0m
-2024-10-08 22:46:45 INFO  logsUtils - [94mSent Data: "lapt" into What are you looking for?.[0m
-2024-10-08 22:46:46 INFO  logsUtils - [94mSent Data: "ENTER" into What are you looking for?.[0m
-2024-10-08 22:46:46 INFO  logsUtils - [94mSent Data: "ENTER" into What are you looking for?.[0m
-2024-10-08 22:46:46 INFO  logsUtils - [94mWaiting for Element To Disappear: By.xpath: //img[@alt='Loading' and @loading='lazy'][0m
-2024-10-08 22:46:46 INFO  logsUtils - [94mGetting Attribute from multiple elements located: By.cssSelector: div[data-qa='product-name'][0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: Lenovo IdeaPad 3 14IML05 Laptop With 14-Inch FHD (1920x1080) Display, Core i5 Processor/4GB RAM/1TB HDD/DOS(Without Windows)/Intel UHD Graphics English/Arabic Platinum Grey [0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: DELL Vostro 3515 Laptop With 15.6-Inch FHD Display, AMD Ryzen 7 3700U Processor/8GB RAM/512GB SSD/DOS(Without Windows)/AMD Radeon RX Vega 10 Graphics Card English/Arabic Carbon Black [0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: Lenovo ThinkPad E16 Gen 1 Laptop With 16-inch (1920x1200) Display, Intel Core i7-1355U Processor/8GB RAM DDR4/512GB SSD/DOS(Without windows)/Intel Iris Xe Graphics/ English/Arabic Graphite Black [0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: Lenovo ThinkPad E15 Gen 2 20TD006FAD Laptop With 15.6-Inch Full HD Display, Core i5 Processor/8GB RAM/512GB SSD/DOS(Without windows)/2GB Nvidia GeForce MX350 /International Version English/Arabic Black [0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: Lenovo ThinkPad E16 Gen 1 Laptop With 16-inch (1920x1200) Display, Intel Core i7-1355U Processor/16GB RAM DDR4/512GB SSD/DOS(Without windows)/NVIDIA GeForce MX550 2GB/ English/Arabic Graphite Black [0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: DELL Vostro 3515 Laptop With 15.6-Inch FHD Anti-Glare Screen Display, Ryzen5 3450U Processor/8GB RAM/256GB SSD/DOS(Without Windows)/AMD Radeon Vega 8 Graphics Card English/Arabic Black [0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: Lenovo ThinkPad E16 Gen 1 Laptop With 16-inch (1920x1200) Display, Intel Core i5-1335U Processor/8GB RAM/512GB SSD/DOS(Without Windows)/Intel Iris Xe Graphics/ English/Arabic Graphite Black [0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: Lenovo IdeaPad 3 15ITL6 Laptop With 15.6-Inch FHD Display, Core i5-1135G7 Processor/8GB RAM/1TB HDD/DOS/2GB GeForce MX350 Graphic Card English/Arabic Blue [0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: DELL Vostro 3515 Laptop With 15.6-Inch FHD Display, Ryzen 5-3450U Processor/8GB RAM/512GB SSD/DOS (Without windows)/AMD Radeon Vega 8 Graphic Card English/Arabic Black [0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mAttribute "title" retrieved with value: Lenovo IdeaPad 3 Gaming Laptop With 15.6-Inch FHD IPS Anti-Glare Display, Ryzen 7 5800H Processor/16GB RAM/512GB SSD/DOS/4GB NVIDIA GeForce RTX 3050 English/Arabic Shadow Black [0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: lenovo ideapad 3 14iml05 laptop with 14-inch fhd (1920x1080) display, core i5 processor/4gb ram/1tb hdd/dos(without windows)/intel uhd graphics english/arabic platinum grey  contains Value: laptop[0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: dell vostro 3515 laptop with 15.6-inch fhd display, amd ryzen 7 3700u processor/8gb ram/512gb ssd/dos(without windows)/amd radeon rx vega 10 graphics card english/arabic carbon black  contains Value: laptop[0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: lenovo thinkpad e16 gen 1 laptop with 16-inch (1920x1200) display, intel core i7-1355u processor/8gb ram ddr4/512gb ssd/dos(without windows)/intel iris xe graphics/ english/arabic graphite black  contains Value: laptop[0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: lenovo thinkpad e15 gen 2 20td006fad laptop with 15.6-inch full hd display, core i5 processor/8gb ram/512gb ssd/dos(without windows)/2gb nvidia geforce mx350 /international version english/arabic black  contains Value: laptop[0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: lenovo thinkpad e16 gen 1 laptop with 16-inch (1920x1200) display, intel core i7-1355u processor/16gb ram ddr4/512gb ssd/dos(without windows)/nvidia geforce mx550 2gb/ english/arabic graphite black  contains Value: laptop[0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: dell vostro 3515 laptop with 15.6-inch fhd anti-glare screen display, ryzen5 3450u processor/8gb ram/256gb ssd/dos(without windows)/amd radeon vega 8 graphics card english/arabic black  contains Value: laptop[0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: lenovo thinkpad e16 gen 1 laptop with 16-inch (1920x1200) display, intel core i5-1335u processor/8gb ram/512gb ssd/dos(without windows)/intel iris xe graphics/ english/arabic graphite black  contains Value: laptop[0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: lenovo ideapad 3 15itl6 laptop with 15.6-inch fhd display, core i5-1135g7 processor/8gb ram/1tb hdd/dos/2gb geforce mx350 graphic card english/arabic blue  contains Value: laptop[0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: dell vostro 3515 laptop with 15.6-inch fhd display, ryzen 5-3450u processor/8gb ram/512gb ssd/dos (without windows)/amd radeon vega 8 graphic card english/arabic black  contains Value: laptop[0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assert Contains - Container: lenovo ideapad 3 gaming laptop with 15.6-inch fhd ips anti-glare display, ryzen 7 5800h processor/16gb ram/512gb ssd/dos/4gb nvidia geforce rtx 3050 english/arabic shadow black  contains Value: laptop[0m
-2024-10-08 22:46:47 INFO  logsUtils - [94mSoft Assertions Completed and Asserting All[0m
-2024-10-08 22:46:47 INFO  logsUtils - [92m[PASSED] Scenario Verify that user can search with partially product name [PASSED][0m
-2024-10-08 22:46:47 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-10-08 22:46:51 INFO  logsUtils - [94mWebDriver quit[0m
-2024-10-08 22:46:51 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\log4j2[0m
-2024-10-08 22:46:51 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\log4j2[0m
-2024-10-08 22:46:51 INFO  logsUtils - Log file successfully attached to the Allure report.
-2024-10-08 22:46:51 INFO  logsUtils - [95m[ALL TESTS COMPLETED]: UI CHROME [ALL TESTS COMPLETED][0m
-2024-10-08 22:46:51 INFO  logsUtils - [38;5;200m[SUITE FINISHED]: UI , API TESTS [SUITE FINISHED][0m
-2024-10-08 22:46:51 INFO  logsUtils - [94m------------------------------------------[0m
-2024-10-08 22:46:51 INFO  logsUtils - [96m------- Ellithium  Engine TearDown -------[0m
-2024-10-08 22:46:51 INFO  logsUtils - [94m------------------------------------------[0m
-2024-10-08 22:46:51 INFO  logsUtils - [96mTotal Execution Time is: 0 Min 17 Sec 909 Mills[0m
-2024-10-08 22:46:51 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
-2024-10-08 22:46:51 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
-2024-10-08 22:46:51 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
-2024-10-08 22:46:51 INFO  logsUtils - [92mAllure folder exists at: C:\Users\lenovo\.m2\repository\allure-Ellithium[0m
-2024-10-08 22:46:51 INFO  logsUtils - [92mFound Allure binary directory: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin[0m
-2024-10-08 22:46:51 INFO  logsUtils - [92mAttempting to execute command: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin\allure generate --single-file --name "Test Report" -o .\LastReport\ .\Test-Output/Reports/Allure/allure-results\[0m
-2024-10-08 22:46:54 INFO  logsUtils - [92mCommand executed successfully. Exit code: 0[0m
-2024-10-08 22:46:54 INFO  logsUtils - [94mGetting Timestamp: 2024-10-08-10-46-54PM[0m
-2024-10-08 22:46:54 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
-2024-10-08 22:46:54 INFO  logsUtils - [92mAttempting to execute command: start Test-Output\Reports\Allure\allure-report\Ellithium-Test-Report-2024-10-08-10-46-54PM.html[0m
-2024-10-08 22:46:54 INFO  logsUtils - [92mCommand executed successfully. Exit code: 0[0m
+2025-02-10 13:55:51 INFO  Logger - [94mGetting Timestamp: 2025-02-10[0m
+2025-02-10 13:55:51 INFO  Logger - [94mReading value for key: LastRunDate from JSON file: Test-Output\UpdateChecker\checker.json[0m
+2025-02-10 13:55:51 INFO  Logger - [92mSuccessfully read value for key: LastRunDate from JSON file: Test-Output\UpdateChecker\checker.json[0m
+2025-02-10 13:55:51 INFO  Logger - [92mInitialize default Timeout for Element [0m
+2025-02-10 13:55:51 INFO  Logger - [92mInitialize default Polling Time for Element [0m
+2025-02-10 13:55:51 INFO  Logger - [94m---------------------------------------------[0m
+2025-02-10 13:55:51 INFO  Logger - [96m------- Ellithium Engine Setup --------------[0m
+2025-02-10 13:55:51 INFO  Logger - [94m---------------------------------------------[0m
+2025-02-10 13:55:51 INFO  Logger - [38;5;200m[SUITE STARTED]: DEFAULT SUITE [SUITE STARTED][0m
+2025-02-10 13:55:51 INFO  Logger - [95m[ALL TESTS STARTED]: NOON-SHOPPING-WEBSITE-MANUAL-AUTOMATION- [ALL TESTS STARTED][0m
+2025-02-10 13:55:52 INFO  Logger - [96m[START] [94m Scenario Verify Search result updated according to the applied Sorting manner [START][0m
+2025-02-10 13:55:52 INFO  Logger - [96m[START] [94m Scenario Verify Search result updated according to the applied filter [START][0m
+2025-02-10 13:55:52 INFO  Logger - [96m[START] [94m Scenario Verify that user can search with product Company name [START][0m
+2025-02-10 13:55:52 INFO  Logger - [96m[START] [94m Scenario User Search query is Accepted [START][0m
+2025-02-10 13:55:52 INFO  Logger - [96m[START] [94m Scenario Verify that the No Results Found message is displayed when there are no matching items [START][0m
+2025-02-10 13:55:52 INFO  Logger - [96m[START] [94m Scenario Verify that user can search with partially product name [START][0m
+2025-02-10 13:55:52 INFO  Logger - [96m[START] [94m Scenario Only Relative Items Returned in the results [START][0m
+2025-02-10 13:55:52 INFO  Logger - [92m[PASSED] Scenario User Search query is Accepted [PASSED][0m
+2025-02-10 13:55:52 INFO  Logger - [92m[PASSED] Scenario Verify that user can search with product Company name [PASSED][0m
+2025-02-10 13:55:52 INFO  Logger - [92m[PASSED] Scenario Verify that the No Results Found message is displayed when there are no matching items [PASSED][0m
+2025-02-10 13:55:53 INFO  Logger - [92m[PASSED] Scenario Verify Search result updated according to the applied filter [PASSED][0m
+2025-02-10 13:55:53 INFO  Logger - [92m[PASSED] Scenario Verify that user can search with partially product name [PASSED][0m
+2025-02-10 13:55:53 INFO  Logger - [92m[PASSED] Scenario Only Relative Items Returned in the results [PASSED][0m
+2025-02-10 13:55:53 INFO  Logger - [92m[PASSED] Scenario Verify Search result updated according to the applied Sorting manner [PASSED][0m
+2025-02-10 13:55:53 INFO  Logger - [95m[ALL TESTS COMPLETED]: NOON-SHOPPING-WEBSITE-MANUAL-AUTOMATION- [ALL TESTS COMPLETED][0m
+2025-02-10 13:55:53 INFO  Logger - [38;5;200m[SUITE FINISHED]: DEFAULT SUITE [SUITE FINISHED][0m
+2025-02-10 13:55:53 INFO  Logger - [94mTotal Execution Time is: 0 Min 1 Sec 143 Mills[0m
+2025-02-10 13:55:53 INFO  Logger - [94m------------------------------------------[0m
+2025-02-10 13:55:53 INFO  Logger - [96m------- Ellithium Engine TearDown --------[0m
+2025-02-10 13:55:53 INFO  Logger - [94m------------------------------------------[0m
+2025-02-10 13:55:53 INFO  Logger - [92mAllure folder exists at: C:\Users\lenovo\.m2\repository\allure-Ellithium[0m
+2025-02-10 13:55:53 INFO  Logger - [92mFound Allure binary directory: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin[0m
+2025-02-10 13:55:53 INFO  Logger - [92mAttempting to execute command: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin\allure generate --single-file --name "Test Report" -o .\LastReport\ .\Test-Output/Reports/Allure/allure-results\[0m
+2025-02-10 13:55:55 INFO  Logger - [92mCommand executed successfully. Exit code: 0[0m
+2025-02-10 13:55:55 INFO  Logger - [94mGetting Timestamp: 2025-02-10-1-55-55PM[0m
+2025-02-10 13:55:55 INFO  Logger - [92mAttempting to execute command: start Test-Output\Reports\Allure\allure-report\Ellithium-Test-Report-2025-02-10-1-55-55PM.html[0m
+2025-02-10 13:55:56 INFO  Logger - [92mCommand executed successfully. Exit code: 0[0m
