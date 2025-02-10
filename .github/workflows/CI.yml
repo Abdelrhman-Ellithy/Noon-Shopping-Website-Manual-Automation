@@ -1,0 +1,98 @@
+name: CI Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  UI-Tests:
+    name: UI Tests - Java ${{ matrix.java-version }}
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        java-version: [21]
+      fail-fast: false
+    
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK ${{ matrix.java-version }}
+        uses: actions/setup-java@v4
+        with:
+          java-version: ${{ matrix.java-version }}
+          distribution: 'zulu'
+
+      - name: Print Working Directory and Home Folder
+        run: |
+            echo "Working Directory: $(pwd)"
+            echo "Home Directory: $HOME"
+
+      - name: Maven Dependency Cache
+        uses: actions/cache@v3
+        id: maven-cache
+        with:
+          path: |
+            ~/.m2/repository
+            !~/.m2/repository/Ellithium
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}-${{ matrix.java-version }}
+          restore-keys: |
+            ${{ runner.os }}-maven-${{ matrix.java-version }}
+            ${{ runner.os }}-maven-
+      
+      - name: Download Dependencies
+        if: steps.maven-cache.outputs.cache-hit != 'true'
+        run: mvn dependency:go-offline
+        continue-on-error: true
+
+      - name: Clean up previous test output
+        run: |
+          rm -rf Test-Output/Reports/*
+          rm -rf Test-Output/Logs/*
+          rm -rf Test-Output/ScreenShots/Failed/*
+          find Test-Output/UpdateChecker/ -type f ! -name 'checker.json' -delete
+
+      - name: Run Tests
+        id: run-tests
+        run: |
+          mvn clean test
+      
+      - name: Listing Folders
+        run: |
+          echo "Project root directory structure:"
+          find . -type d -maxdepth 1 -print
+
+      
+      - name: Upload Test Reports
+        if: always() && steps.run-tests.conclusion != 'skipped'
+        uses: actions/upload-artifact@v4
+        with:
+          name: Test-Reports-Java${{ matrix.java-version }}
+          path: ./Test-Output/Reports/
+          retention-days: 30
+
+      - name: Upload Test Logs
+        if: always() && steps.run-tests.conclusion != 'skipped'
+        uses: actions/upload-artifact@v4
+        with:
+          name: Test-Logs
+          path: ./Test-Output/Logs/
+          retention-days: 30
+
+      - name: Upload Failed Screenshots
+        if: always() && steps.run-tests.conclusion != 'skipped'
+        uses: actions/upload-artifact@v4
+        with:
+          name: Failed-Screenshots
+          path: ./Test-Output/ScreenShots/Failed/
+          retention-days: 30
+
+      - name: Upload Update Checker
+        if: always() && steps.run-tests.conclusion != 'skipped'
+        uses: actions/upload-artifact@v4
+        with:
+          name: Update-Checker
+          path: ./Test-Output/UpdateChecker/
+          retention-days: 30

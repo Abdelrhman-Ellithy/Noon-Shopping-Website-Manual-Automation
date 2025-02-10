@@ -2,9 +2,9 @@ package Runner;
 import Ellithium.core.base.BDDSetup;
 import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
-        glue = "stepDefinitions", // path to your stepDefinitions package, note you should use . instead of /
-        features="src/main/resources/features" // path to your features folder
-        ,tags = "@Run"
+        glue = {"stepDefinitions","Runner"},
+        features="src/main/resources/features"
+
 )
 public class TestRunner extends BDDSetup {
 }
